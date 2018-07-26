@@ -1,0 +1,1416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default renders 1`] = `
+.c3 {
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.c12 {
+  box-sizing: border-box;
+  color: black;
+}
+
+.c14 {
+  box-sizing: border-box;
+}
+
+.c16 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 16px;
+}
+
+.c17 {
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+}
+
+.c18 {
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.c21 {
+  box-sizing: border-box;
+  padding-left: 512px;
+  padding-right: 512px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: black;
+}
+
+.c25 {
+  box-sizing: border-box;
+  margin-top: 16px;
+}
+
+.c33 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 16px;
+}
+
+.c40 {
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.c41 {
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.c43 {
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.c46 {
+  box-sizing: border-box;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+.c50 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 16px;
+}
+
+.c56 {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c58 {
+  box-sizing: border-box;
+  padding: 64px;
+}
+
+.c61 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 16px;
+}
+
+.c66 {
+  box-sizing: border-box;
+  margin-left: auto;
+  color: grey;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c39 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c42 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c49 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c55 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c60 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c27 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1428571428571428;
+  margin: 0px;
+  margin-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  background-color: blue;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c27:disabled {
+  opacity: 0.25;
+}
+
+.c27:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+.c30 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1428571428571428;
+  margin: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: transparent;
+  border-radius: 2px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c30:disabled {
+  opacity: 0.25;
+}
+
+.c30:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px transparent;
+}
+
+.c59 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1428571428571428;
+  margin: 0px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  background-color: blue;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c59:disabled {
+  opacity: 0.25;
+}
+
+.c59:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+.c4 {
+  color: inherit;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c4:disabled {
+  opacity: 0.25;
+}
+
+.c5 {
+  color: inherit;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: auto;
+  padding: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c5:disabled {
+  opacity: 0.25;
+}
+
+.c6 {
+  color: inherit;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c6:disabled {
+  opacity: 0.25;
+}
+
+.c36 {
+  margin: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.c37 {
+  margin: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.c38 {
+  margin: 0px;
+  text-align: center;
+}
+
+.c44 {
+  margin: 0px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.c45 {
+  margin: 0px;
+}
+
+.c52 {
+  margin: 0px;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+
+.c63 {
+  margin: 16px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.c64 {
+  margin: 16px;
+  text-align: center;
+}
+
+.c65 {
+  margin: 0px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.c22 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+}
+
+.c24 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+}
+
+.c31 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.c34 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.c48 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+  text-align: center;
+}
+
+.c23 {
+  font-size: 24px;
+}
+
+.c35 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.c51 {
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.c47 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 0;
+  border-bottom: 1px solid;
+  border-color: gray;
+}
+
+.c28 {
+  font-size: 14px;
+  font-family: mono;
+  margin: 0px;
+  padding: 16px;
+  overflow: auto;
+}
+
+.c9 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.c20 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.c57 {
+  height: 64px;
+  width: 64px;
+  border-radius: 99999px;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.c62 {
+  height: 128px;
+  width: 128px;
+  border-radius: 99999px;
+  display: inline-block;
+}
+
+.c19 {
+  margin: 0px;
+  padding: 0px;
+  height: 16px;
+  width: 16px;
+  background-color: darken;
+  border-radius: 99999px;
+  border: 4px solid;
+  border-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-clip: padding-box;
+}
+
+.c19:focus {
+  background-color: blue;
+}
+
+.c19:hover {
+  background-color: blue;
+}
+
+.c19:disabled {
+  opacity: 0.25;
+}
+
+.c54 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-right: .3125em solid transparent;
+  border-left: .3125em solid transparent;
+  border-top: .4375em solid;
+  color: whitesmoke;
+}
+
+.c1 {
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.c8 {
+  z-index: -2;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.c10 {
+  background-color: white;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.c53 {
+  bottom: 4px;
+  left: 24px;
+}
+
+.c7 {
+  position: relative;
+}
+
+.c0 {
+  position: absolute;
+}
+
+.c26 {
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c29 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-animation: kdHdTw 1s ease infinite;
+  animation: kdHdTw 1s ease infinite;
+  color: inherit;
+}
+
+@media screen and (min-width:40em) {
+  .c16 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c16 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c33 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c33 {
+    width: 33.33333333333333%;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c33 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c33 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c40 {
+    padding: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c40 {
+    padding: 64px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c43 {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c46 {
+    margin-left: 64px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c50 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c50 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c61 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c61 {
+    width: 33.33333333333333%;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c61 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
+
+<main
+  style={
+    Object {
+      "fontFamily": "Droid Sans",
+    }
+  }
+>
+  <div
+    className="c0 c1 sc-TOsTZ c1"
+  >
+    <div
+      className="c2 c3 sc-bdVaJa c3"
+    >
+      <a
+        className="c4"
+        href="/"
+      >
+        react-landing-page
+      </a>
+      <a
+        className="c5"
+        href="https://github.com/Hermanya/react-landing-page"
+      >
+        GitHub
+      </a>
+      <a
+        className="c6"
+        href="https://www.npmjs.com/package/react-landing-page"
+      >
+        NPM
+      </a>
+    </div>
+  </div>
+  <div
+    className="c7 sc-TOsTZ kjYrri"
+  >
+    <div
+      className="c0 c8 sc-TOsTZ c8"
+      style={
+        Object {
+          "height": "100%",
+        }
+      }
+    >
+      <img
+        alt=""
+        className="c9"
+        src="https://source.unsplash.com/jxaj-UrzQbc/1600x900"
+        style={
+          Object {
+            "height": "100%",
+            "objectFit": "cover",
+          }
+        }
+      />
+    </div>
+    <div
+      className="c0 c10 sc-TOsTZ c10"
+      style={
+        Object {
+          "height": "100%",
+          "opacity": 0.9,
+        }
+      }
+    />
+    <div
+      className="c11 c12 sc-bdVaJa c12"
+      style={
+        Object {
+          "minHeight": "100vh",
+        }
+      }
+    >
+      <div
+        className="c13 c14 sc-bdVaJa c14"
+      >
+        <div
+          className="c15 c16 sc-bdVaJa c16"
+        >
+          <div
+            className="c17"
+            style={
+              Object {
+                "borderRadius": 4,
+                "transform": "translate(32px, 0px)",
+              }
+            }
+          >
+            <div
+              className="c18"
+            >
+              <button
+                className="c19"
+              />
+              <button
+                className="c19"
+              />
+              <button
+                className="c19"
+              />
+            </div>
+            <img
+              className="c20"
+              src="http://via.placeholder.com/640x480"
+            />
+          </div>
+          <div
+            className="c21"
+            style={
+              Object {
+                "borderRadius": 20,
+                "position": "relative",
+                "transform": "translate(-32px, 64px)",
+              }
+            }
+          >
+            <img
+              className="c20"
+              src="http://via.placeholder.com/187x406"
+              style={
+                Object {
+                  "borderRadius": 16,
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          alignItems="center"
+          className="c16"
+        >
+          <h2
+            className="c22"
+          >
+            React components for a Landing Page
+          </h2>
+          <h3
+            className="c23 c24 sc-VigVT c22"
+          >
+            tailored to your app & users
+          </h3>
+          <div
+            className="c2 c25 sc-bdVaJa c25"
+          >
+            <a
+              className="c26 c27"
+              href="/getting-started"
+            >
+              Documentation
+            </a>
+            <pre
+              className="c28"
+            >
+              npm i react-landing-page@next
+            </pre>
+          </div>
+        </div>
+      </div>
+      <button
+        className="c29 c30"
+      >
+        ╲╱
+      </button>
+    </div>
+  </div>
+  <h2
+    className="c31"
+  >
+    What's inside?
+  </h2>
+  <div
+    className="c32 c14 sc-bdVaJa c14"
+  >
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        👋
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Hero
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        What your users see first
+      </div>
+    </div>
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        🔥
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Features
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        What your app can do
+      </div>
+    </div>
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        ✅
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Checklist
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        What is worth mentioning
+      </div>
+    </div>
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        💼
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Company Logos
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        What big names are behind
+      </div>
+    </div>
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        🙎‍
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Social Proof
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        What your other people say
+      </div>
+    </div>
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        💳
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Pricing
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        How much you charge
+      </div>
+    </div>
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        📣
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Call To Action
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        What should users do first
+      </div>
+    </div>
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        📩
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Sign Up
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        How to keep in touch
+      </div>
+    </div>
+    <div
+      className="c33"
+    >
+      <h2
+        className="c34"
+      >
+        👩‍💼
+      </h2>
+      <div
+        className="c35 c36 sc-gqjmRU c37"
+      >
+        Team
+      </div>
+      <div
+        className="c38"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        Who worked on the app
+      </div>
+    </div>
+  </div>
+  <div
+    className="c39 c40 sc-bdVaJa c40"
+  >
+    <h2
+      className="c22"
+    >
+      Why pick this library?
+    </h2>
+    <h3
+      className="c23 c24 sc-VigVT c22"
+    >
+      maybe this will help
+    </h3>
+    <ul
+      className="c41"
+      style={
+        Object {
+          "listStyle": "none",
+        }
+      }
+    >
+      <li
+        className="c42 c43"
+        mt={
+          Array [
+            1,
+            3,
+          ]
+        }
+      >
+        <div
+          className="c35 c44 sc-gqjmRU c45"
+        >
+          Open Source
+        </div>
+        <div
+          className="c46"
+        >
+          ✅
+        </div>
+      </li>
+      <hr
+        className="c47"
+      />
+      <li
+        className="c42 c43"
+        mt={
+          Array [
+            1,
+            3,
+          ]
+        }
+      >
+        <div
+          className="c35 c44 sc-gqjmRU c45"
+        >
+          React best practices
+        </div>
+        <div
+          className="c46"
+        >
+          ✅
+        </div>
+      </li>
+      <hr
+        className="c47"
+      />
+      <li
+        className="c42 c43"
+        mt={
+          Array [
+            1,
+            3,
+          ]
+        }
+      >
+        <div
+          className="c35 c44 sc-gqjmRU c45"
+        >
+          Practical API
+        </div>
+        <div
+          className="c46"
+        >
+          ✅
+        </div>
+      </li>
+    </ul>
+  </div>
+  <h2
+    className="c48"
+  >
+    What people say?
+  </h2>
+  <div
+    className="c49 c14 sc-bdVaJa c14"
+  >
+    <div
+      className="c39 c50 sc-bdVaJa c50"
+    >
+      <div
+        className="c7 sc-TOsTZ kjYrri"
+      >
+        <blockquote
+          bg="whitesmoke"
+          className="c51 c52"
+        >
+          Use react-landing-page for your landing page needs. Or do not, I am not a beggar...
+          <div
+            className="c0 c53 sc-TOsTZ c53"
+          >
+            <div
+              className="c54"
+              direction="down"
+            />
+          </div>
+        </blockquote>
+      </div>
+      <div
+        className="c55 c56 sc-bdVaJa c56"
+      >
+        <img
+          className="c57"
+          src="https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI"
+        />
+        <div
+          className="c14"
+        >
+          <div
+            className="c35 c44 sc-gqjmRU c45"
+          >
+            Herman Starikov
+          </div>
+          <div
+            className="c45"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            developer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c39 c58 sc-bdVaJa c58"
+  >
+    <h2
+      className="c22"
+    >
+      Install from npm
+    </h2>
+    <h3
+      className="c23 c24 sc-VigVT c22"
+    >
+      and head over to documentation
+    </h3>
+    <div
+      className="c2 c25 sc-bdVaJa c25"
+    >
+      <pre
+        className="c28"
+      >
+        npm i react-landing-page@next
+      </pre>
+      <a
+        className="c26 c59"
+        href="/getting-started"
+      >
+        Documentation
+      </a>
+    </div>
+  </div>
+  <h2
+    className="c48"
+  >
+    Made by
+  </h2>
+  <div
+    className="c60 c14 sc-bdVaJa c14"
+  >
+    <div
+      className="c39 c61 sc-bdVaJa c61"
+    >
+      <img
+        className="c62"
+        src="https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI"
+      />
+      <div
+        className="c35 c63 sc-gqjmRU c64"
+      >
+        Herman Starikov
+      </div>
+      <div
+        className="c65"
+        style={
+          Object {
+            "opacity": 0.75,
+          }
+        }
+      >
+        developer
+      </div>
+      <div
+        className="c2 c14 sc-bdVaJa c14"
+      >
+        <a
+          className="c6"
+          href="https://github.com/Hermanya"
+        >
+          GitHub
+        </a>
+        <a
+          className="c6"
+          href="https://www.linkedin.com/in/hermanstarikov/"
+        >
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="c2 c3"
+    p={3}
+  >
+    <a
+      className="c6"
+      href="/getting-started"
+    >
+      Documentation
+    </a>
+    <a
+      className="c6"
+      href="https://github.com/Hermanya/react-landing-page"
+    >
+      GitHub
+    </a>
+    <a
+      className="c6"
+      href="https://www.npmjs.com/package/react-landing-page"
+    >
+      NPM
+    </a>
+    <div
+      className="c66"
+    >
+      MIT © Herman Starikov
+    </div>
+  </footer>
+</main>
+`;
