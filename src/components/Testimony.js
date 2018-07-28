@@ -7,7 +7,7 @@ const Testimony = ({
     authorTitle,
     children,
     ...props
-}) => <Flex width={[1, 1/2]} my={[1, 5]} p={3} flexDirection='column' alignItems="center" {...props}>
+}) => <Flex flexDirection='column' alignItems="center" {...props}>
     {typeof children === 'string' ?
         <Relative>
             <Blockquote bg="whitesmoke" mb={3} p={3}>

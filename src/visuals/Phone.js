@@ -16,8 +16,15 @@ const Phone = ({
   src='https://via.placeholder.com/187x406',
   style={},
   color="grey",
-  notch
-}) => <Box bg={color} px={8} py={notch? 8 : 24} style={{borderRadius: 20, position: 'relative', ...style}}>
+  notch,
+  ...props
+}) => <Box
+  bg={color}
+  px={'1%'}
+  py={notch? 8 : '4%'}
+  style={{borderRadius: 20, position: 'relative', ...style}}
+  {...props}
+  >
   {notch && <Notch bg={color}/>}
   <Image src={src} style={{borderRadius: 16}}/>
 </Box>
