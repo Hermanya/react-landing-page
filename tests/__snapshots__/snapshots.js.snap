@@ -770,13 +770,7 @@ exports[`default renders 1`] = `
   }
 }
 
-<main
-  style={
-    Object {
-      "fontFamily": "Droid Sans",
-    }
-  }
->
+<main>
   <div
     className="c0 c1 sc-TOsTZ c1"
   >
@@ -898,7 +892,6 @@ exports[`default renders 1`] = `
           </div>
         </div>
         <div
-          alignItems="center"
           className="c16"
         >
           <h2
