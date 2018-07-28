@@ -1,17 +1,17 @@
 
 # React Landing Page
 
-React UI component library for building Landing Pages. 
+React UI component library for building Landing Pages.
 
 [![Build Status][badge]][travis]
 [![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][npm]
 [![Version][version-badge]][npm]
 
-[badge]: https://img.shields.io/travis/hermanya/react-landing-page.svg?style=flat-square
-[travis]: https://travis-ci.org/hermanya/react-landing-page
-[coverage-badge]: https://img.shields.io/codecov/c/github/hermanya/react-landing-page.svg?style=flat-square
-[coverage]: https://codecov.io/github/hermanya/react-landing-page
+[badge]: https://img.shields.io/travis/Hermanya/react-landing-page.svg?style=flat-square
+[travis]: https://travis-ci.org/Hermanya/react-landing-page
+[coverage-badge]: https://img.shields.io/codecov/c/github/Hermanya/react-landing-page.svg?style=flat-square
+[coverage]: https://codecov.io/github/Hermanya/react-landing-page
 
 [downloads-badge]: https://img.shields.io/npm/dw/react-landing-page.svg?style=flat-square
 [version-badge]: https://img.shields.io/npm/v/react-landing-page.svg?style=flat-square
