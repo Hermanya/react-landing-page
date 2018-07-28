@@ -23,6 +23,21 @@
     </Hero>
 ```
 
+## Basic hero
+
+```.jsx
+<Hero
+    color="black"
+    bg="white"
+    backgroundImage="https://source.unsplash.com/jxaj-UrzQbc/1600x900"
+>
+    <Heading>Name of your app</Heading>
+    <Subhead>a couple more words</Subhead>
+    <CallToAction href="/getting-started" mt={3}>Get started</CallToAction>
+    <ScrollDownIndicator/>
+</Hero>
+```
+
 Extends: [Flex](https://jxnblk.com/rebass/components/Flex)
 
 | prop            | default         | type               |

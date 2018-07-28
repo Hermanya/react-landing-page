@@ -14,7 +14,7 @@ const PricingTier = ({
         <Text fontSize={6} fontWeight="bold">{price}</Text>
         <Text style={{opacity: 3/4}} m={2}>{billingType}</Text>
     </Flex>
-    {sellingPoints.map(point => <Text mb={2}>{point}</Text>)}
+    {sellingPoints.map(point => <Text mb={2} key={point}>{point}</Text>)}
     {children}
 </Flex>
 
