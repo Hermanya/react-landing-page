@@ -1,7 +1,7 @@
 
 # React Landing Page
 
-React UI component library for building Landing Pages.
+React UI component library for building Landing Pages. 
 
 [![Build Status][badge]][travis]
 [![Coverage][coverage-badge]][coverage]
@@ -17,11 +17,13 @@ React UI component library for building Landing Pages.
 [version-badge]: https://img.shields.io/npm/v/react-landing-page.svg?style=flat-square
 [npm]: https://npmjs.com/package/react-landing-page
 
-[Landing page for this project](https://hermanya.github.io/react-landing-page/)
+![image](https://user-images.githubusercontent.com/2906365/43358152-4a56cd00-925b-11e8-8cee-af37c07877ca.png)
+
 
 ```sh
 npm i react-landing-page@next
 ```
+[>> SEE DEMO <<](https://hermanya.github.io/react-landing-page/)
 
 React Landing Page is a set of highly-composable React components for building advanced landing pages. It is built using Rebass, a library of UI primitives.
 Based upon a configurable design system,
@@ -58,19 +60,6 @@ To use Rebass with [emotion][emotion], import from `rebass/emotion`:
 ```js
 import * as Rebass from 'rebass/emotion'
 ```
-
-## Features
-
-👋 Hero
-🔥 Features
-✅ Checklist
-💼 Company Logos
-🙎 ‍Social Proof
-💳 Pricing
-📣 Call To Action
-📩 Sign Up
-👩‍💼 Team
-
 
 ## Documentation
 
