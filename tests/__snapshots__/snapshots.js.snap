@@ -33,74 +33,75 @@ exports[`default renders 1`] = `
 
 .c21 {
   box-sizing: border-box;
-  padding-left: 512px;
-  padding-right: 512px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   background-color: black;
 }
 
-.c25 {
+.c26 {
   box-sizing: border-box;
   margin-top: 16px;
 }
 
-.c33 {
+.c34 {
   box-sizing: border-box;
   width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.c38 {
+  box-sizing: border-box;
+  width: 50%;
   margin-top: 4px;
   margin-bottom: 4px;
   padding: 16px;
 }
 
-.c40 {
+.c44 {
   box-sizing: border-box;
-  padding: 4px;
+  width: 25%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
-.c41 {
+.c46 {
   box-sizing: border-box;
   padding: 0px;
 }
 
-.c43 {
+.c48 {
   box-sizing: border-box;
   margin-top: 4px;
 }
 
-.c46 {
+.c51 {
   box-sizing: border-box;
   margin-left: 8px;
   font-size: 20px;
 }
 
-.c50 {
-  box-sizing: border-box;
-  width: 100%;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  padding: 16px;
-}
-
-.c56 {
+.c59 {
   box-sizing: border-box;
   width: 100%;
 }
 
-.c58 {
-  box-sizing: border-box;
-  padding: 64px;
-}
-
-.c61 {
+.c67 {
   box-sizing: border-box;
   width: 100%;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  padding: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
-.c66 {
+.c69 {
   box-sizing: border-box;
   margin-left: auto;
   color: grey;
@@ -156,7 +157,7 @@ exports[`default renders 1`] = `
   align-items: flex-start;
 }
 
-.c32 {
+.c25 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -170,7 +171,25 @@ exports[`default renders 1`] = `
   justify-content: center;
 }
 
-.c39 {
+.c32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c33 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -184,7 +203,17 @@ exports[`default renders 1`] = `
   align-items: center;
 }
 
-.c42 {
+.c45 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c47 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -199,7 +228,7 @@ exports[`default renders 1`] = `
   justify-content: space-between;
 }
 
-.c49 {
+.c53 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -214,7 +243,7 @@ exports[`default renders 1`] = `
   justify-content: space-around;
 }
 
-.c55 {
+.c58 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -225,7 +254,7 @@ exports[`default renders 1`] = `
   align-items: center;
 }
 
-.c60 {
+.c61 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -236,7 +265,17 @@ exports[`default renders 1`] = `
   justify-content: space-around;
 }
 
-.c27 {
+.c66 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c28 {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1428571428571428;
@@ -262,16 +301,16 @@ exports[`default renders 1`] = `
   appearance: none;
 }
 
-.c27:disabled {
+.c28:disabled {
   opacity: 0.25;
 }
 
-.c27:focus {
+.c28:focus {
   outline: none;
   box-shadow: 0 0 0 2px blue;
 }
 
-.c30 {
+.c31 {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1428571428571428;
@@ -296,16 +335,16 @@ exports[`default renders 1`] = `
   appearance: none;
 }
 
-.c30:disabled {
+.c31:disabled {
   opacity: 0.25;
 }
 
-.c30:focus {
+.c31:focus {
   outline: none;
   box-shadow: 0 0 0 2px transparent;
 }
 
-.c59 {
+.c68 {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1428571428571428;
@@ -330,11 +369,11 @@ exports[`default renders 1`] = `
   appearance: none;
 }
 
-.c59:disabled {
+.c68:disabled {
   opacity: 0.25;
 }
 
-.c59:focus {
+.c68:focus {
   outline: none;
   box-shadow: 0 0 0 2px blue;
 }
@@ -421,7 +460,7 @@ exports[`default renders 1`] = `
   opacity: 0.25;
 }
 
-.c36 {
+.c41 {
   margin: 16px;
   font-size: 20px;
   font-weight: bold;
@@ -429,28 +468,28 @@ exports[`default renders 1`] = `
   line-height: 1.25;
 }
 
-.c37 {
+.c42 {
   margin: 16px;
   font-weight: bold;
   text-align: center;
 }
 
-.c38 {
+.c43 {
   margin: 0px;
   text-align: center;
 }
 
-.c44 {
+.c49 {
   margin: 0px;
   font-size: 20px;
   line-height: 1.25;
 }
 
-.c45 {
+.c50 {
   margin: 0px;
 }
 
-.c52 {
+.c55 {
   margin: 0px;
   margin-bottom: 16px;
   padding: 16px;
@@ -481,6 +520,7 @@ exports[`default renders 1`] = `
   font-weight: bold;
   line-height: 1.25;
   margin: 0px;
+  text-align: center;
 }
 
 .c24 {
@@ -488,19 +528,10 @@ exports[`default renders 1`] = `
   font-weight: bold;
   line-height: 1.25;
   margin: 0px;
-}
-
-.c31 {
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.25;
-  margin: 0px;
-  margin-top: 32px;
-  margin-bottom: 32px;
   text-align: center;
 }
 
-.c34 {
+.c35 {
   font-size: 32px;
   font-weight: bold;
   line-height: 1.25;
@@ -509,11 +540,30 @@ exports[`default renders 1`] = `
   text-align: center;
 }
 
-.c48 {
+.c36 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.c37 {
   font-size: 32px;
   font-weight: bold;
   line-height: 1.25;
   margin: 0px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.c39 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -521,19 +571,19 @@ exports[`default renders 1`] = `
   font-size: 24px;
 }
 
-.c35 {
+.c40 {
   font-size: 20px;
   line-height: 1.25;
 }
 
-.c51 {
+.c54 {
   font-size: 20px;
   margin: 0px;
   margin-bottom: 16px;
   padding: 16px;
 }
 
-.c47 {
+.c52 {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 16px;
@@ -543,7 +593,7 @@ exports[`default renders 1`] = `
   border-color: gray;
 }
 
-.c28 {
+.c29 {
   font-size: 14px;
   font-family: mono;
   margin: 0px;
@@ -564,7 +614,7 @@ exports[`default renders 1`] = `
   height: auto;
 }
 
-.c57 {
+.c60 {
   height: 64px;
   width: 64px;
   border-radius: 99999px;
@@ -606,7 +656,7 @@ exports[`default renders 1`] = `
   opacity: 0.25;
 }
 
-.c54 {
+.c57 {
   display: inline-block;
   width: 0;
   height: 0;
@@ -641,7 +691,7 @@ exports[`default renders 1`] = `
   left: 0px;
 }
 
-.c53 {
+.c56 {
   bottom: 4px;
   left: 24px;
 }
@@ -654,7 +704,7 @@ exports[`default renders 1`] = `
   position: absolute;
 }
 
-.c26 {
+.c27 {
   text-transform: uppercase;
   -webkit-letter-spacing: 0.1em;
   -moz-letter-spacing: 0.1em;
@@ -667,7 +717,7 @@ exports[`default renders 1`] = `
   user-select: none;
 }
 
-.c29 {
+.c30 {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -689,84 +739,211 @@ exports[`default renders 1`] = `
 }
 
 @media screen and (min-width:40em) {
-  .c33 {
-    width: 50%;
+  .c34 {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 
 @media screen and (min-width:52em) {
-  .c33 {
-    width: 33.33333333333333%;
+  .c34 {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c34 {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width:40em) {
-  .c33 {
+  .c38 {
+    width: 33.33333333333333%;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c38 {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c38 {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c38 {
     margin-top: 8px;
     margin-bottom: 8px;
   }
 }
 
 @media screen and (min-width:52em) {
-  .c33 {
+  .c38 {
     margin-top: 16px;
     margin-bottom: 16px;
   }
 }
 
 @media screen and (min-width:40em) {
-  .c40 {
-    padding: 8px;
+  .c44 {
+    width: 50%;
   }
 }
 
 @media screen and (min-width:52em) {
-  .c40 {
-    padding: 64px;
+  .c44 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c44 {
+    width: 25%;
   }
 }
 
 @media screen and (min-width:40em) {
-  .c43 {
-    margin-top: 16px;
+  .c44 {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c44 {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c44 {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width:40em) {
-  .c46 {
+  .c51 {
     margin-left: 64px;
   }
 }
 
 @media screen and (min-width:40em) {
-  .c50 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c50 {
-    margin-top: 64px;
-    margin-bottom: 64px;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c61 {
+  .c67 {
     width: 50%;
   }
 }
 
 @media screen and (min-width:52em) {
-  .c61 {
-    width: 33.33333333333333%;
+  .c67 {
+    width: 66.66666666666666%;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c67 {
+    width: 50%;
   }
 }
 
 @media screen and (min-width:40em) {
-  .c61 {
-    margin-top: 64px;
-    margin-bottom: 64px;
+  .c67 {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c67 {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c67 {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c35 {
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c35 {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c35 {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c36 {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c36 {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c36 {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c37 {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c37 {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c37 {
+    margin-bottom: 32px;
   }
 }
 
@@ -876,7 +1053,7 @@ exports[`default renders 1`] = `
               Object {
                 "borderRadius": 20,
                 "position": "relative",
-                "transform": "translate(-32px, 64px)",
+                "transform": "translate(-32px, 32px)",
               }
             }
           >
@@ -905,16 +1082,16 @@ exports[`default renders 1`] = `
             tailored to your app & users
           </h3>
           <div
-            className="c2 c25 sc-bdVaJa c25"
+            className="c25 c26 sc-bdVaJa c26"
           >
             <a
-              className="c26 c27"
+              className="c27 c28"
               href="/getting-started"
             >
               Documentation
             </a>
             <pre
-              className="c28"
+              className="c29"
             >
               npm i react-landing-page@next
             </pre>
@@ -922,459 +1099,478 @@ exports[`default renders 1`] = `
         </div>
       </div>
       <button
-        className="c29 c30"
+        className="c30 c31"
       >
         ╲╱
       </button>
     </div>
   </div>
-  <h2
-    className="c31"
-  >
-    What's inside?
-  </h2>
   <div
     className="c32 c14 sc-bdVaJa c14"
   >
     <div
-      className="c33"
+      className="c33 c34 sc-bdVaJa c34"
     >
       <h2
-        className="c34"
+        className="c35"
       >
-        👋
+        What's included?
       </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Hero
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        What your users see first
-      </div>
-    </div>
-    <div
-      className="c33"
-    >
-      <h2
-        className="c34"
-      >
-        🔥
-      </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Features
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        What your app can do
-      </div>
-    </div>
-    <div
-      className="c33"
-    >
-      <h2
-        className="c34"
-      >
-        ✅
-      </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Checklist
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        What is worth mentioning
-      </div>
-    </div>
-    <div
-      className="c33"
-    >
-      <h2
-        className="c34"
-      >
-        💼
-      </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Company Logos
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        What big names are behind
-      </div>
-    </div>
-    <div
-      className="c33"
-    >
-      <h2
-        className="c34"
-      >
-        🙎‍
-      </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Social Proof
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        What your other people say
-      </div>
-    </div>
-    <div
-      className="c33"
-    >
-      <h2
-        className="c34"
-      >
-        💳
-      </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Pricing
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        How much you charge
-      </div>
-    </div>
-    <div
-      className="c33"
-    >
-      <h2
-        className="c34"
-      >
-        📣
-      </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Call To Action
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        What should users do first
-      </div>
-    </div>
-    <div
-      className="c33"
-    >
-      <h2
-        className="c34"
-      >
-        📩
-      </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Sign Up
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        How to keep in touch
-      </div>
-    </div>
-    <div
-      className="c33"
-    >
-      <h2
-        className="c34"
-      >
-        👩‍💼
-      </h2>
-      <div
-        className="c35 c36 sc-gqjmRU c37"
-      >
-        Team
-      </div>
-      <div
-        className="c38"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        Who worked on the app
-      </div>
-    </div>
-  </div>
-  <div
-    className="c39 c40 sc-bdVaJa c40"
-  >
-    <h2
-      className="c22"
-    >
-      Why pick this library?
-    </h2>
-    <h3
-      className="c23 c24 sc-VigVT c22"
-    >
-      maybe this will help
-    </h3>
-    <ul
-      className="c41"
-      style={
-        Object {
-          "listStyle": "none",
-        }
-      }
-    >
-      <li
-        className="c42 c43"
-        mt={
-          Array [
-            1,
-            3,
-          ]
-        }
-      >
-        <div
-          className="c35 c44 sc-gqjmRU c45"
-        >
-          Open Source
-        </div>
-        <div
-          className="c46"
-        >
-          ✅
-        </div>
-      </li>
-      <hr
-        className="c47"
+      <h3
+        className="c23 c36 sc-VigVT c37"
       />
-      <li
-        className="c42 c43"
-        mt={
-          Array [
-            1,
-            3,
-          ]
-        }
-      >
-        <div
-          className="c35 c44 sc-gqjmRU c45"
-        >
-          React best practices
-        </div>
-        <div
-          className="c46"
-        >
-          ✅
-        </div>
-      </li>
-      <hr
-        className="c47"
-      />
-      <li
-        className="c42 c43"
-        mt={
-          Array [
-            1,
-            3,
-          ]
-        }
-      >
-        <div
-          className="c35 c44 sc-gqjmRU c45"
-        >
-          Practical API
-        </div>
-        <div
-          className="c46"
-        >
-          ✅
-        </div>
-      </li>
-    </ul>
-  </div>
-  <h2
-    className="c48"
-  >
-    What people say?
-  </h2>
-  <div
-    className="c49 c14 sc-bdVaJa c14"
-  >
-    <div
-      className="c39 c50 sc-bdVaJa c50"
-    >
       <div
-        className="c7 sc-TOsTZ kjYrri"
+        className="c25 c14 sc-bdVaJa c14"
       >
-        <blockquote
-          bg="whitesmoke"
-          className="c51 c52"
-        >
-          Use react-landing-page for your landing page needs. Or do not, I am not a beggar...
-          <div
-            className="c0 c53 sc-TOsTZ c53"
-          >
-            <div
-              className="c54"
-              direction="down"
-            />
-          </div>
-        </blockquote>
-      </div>
-      <div
-        className="c55 c56 sc-bdVaJa c56"
-      >
-        <img
-          className="c57"
-          src="https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI"
-        />
         <div
-          className="c14"
+          className="c38"
         >
-          <div
-            className="c35 c44 sc-gqjmRU c45"
+          <h2
+            className="c39"
           >
-            Herman Starikov
+            👋
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Hero
           </div>
           <div
-            className="c45"
+            className="c43"
             style={
               Object {
                 "opacity": 0.75,
               }
             }
           >
-            developer
+            What your users see first
+          </div>
+        </div>
+        <div
+          className="c38"
+        >
+          <h2
+            className="c39"
+          >
+            🔥
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Features
+          </div>
+          <div
+            className="c43"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            What your app can do
+          </div>
+        </div>
+        <div
+          className="c38"
+        >
+          <h2
+            className="c39"
+          >
+            ✅
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Checklist
+          </div>
+          <div
+            className="c43"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            What is worth mentioning
+          </div>
+        </div>
+        <div
+          className="c38"
+        >
+          <h2
+            className="c39"
+          >
+            💼
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Company Logos
+          </div>
+          <div
+            className="c43"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            What big names are behind
+          </div>
+        </div>
+        <div
+          className="c38"
+        >
+          <h2
+            className="c39"
+          >
+            🙎‍
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Social Proof
+          </div>
+          <div
+            className="c43"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            What your other people say
+          </div>
+        </div>
+        <div
+          className="c38"
+        >
+          <h2
+            className="c39"
+          >
+            💳
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Pricing
+          </div>
+          <div
+            className="c43"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            How much you charge
+          </div>
+        </div>
+        <div
+          className="c38"
+        >
+          <h2
+            className="c39"
+          >
+            📣
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Call To Action
+          </div>
+          <div
+            className="c43"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            What should users do first
+          </div>
+        </div>
+        <div
+          className="c38"
+        >
+          <h2
+            className="c39"
+          >
+            📩
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Sign Up
+          </div>
+          <div
+            className="c43"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            How to keep in touch
+          </div>
+        </div>
+        <div
+          className="c38"
+        >
+          <h2
+            className="c39"
+          >
+            👩‍💼
+          </h2>
+          <div
+            className="c40 c41 sc-gqjmRU c42"
+          >
+            Team
+          </div>
+          <div
+            className="c43"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            Who worked on the app
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div
-    className="c39 c58 sc-bdVaJa c58"
-  >
-    <h2
-      className="c22"
-    >
-      Install from npm
-    </h2>
-    <h3
-      className="c23 c24 sc-VigVT c22"
-    >
-      and head over to documentation
-    </h3>
     <div
-      className="c2 c25 sc-bdVaJa c25"
+      className="c33 c44 sc-bdVaJa c44"
     >
+      <h2
+        className="c35"
+      >
+        Why pick this library?
+      </h2>
+      <h3
+        className="c23 c36 sc-VigVT c37"
+      >
+        maybe this will help
+      </h3>
+      <ul
+        className="c45 c46"
+        p={0}
+        style={
+          Object {
+            "listStyle": "none",
+          }
+        }
+      >
+        <li
+          className="c47 c48"
+          mt={
+            Array [
+              1,
+            ]
+          }
+        >
+          <div
+            className="c40 c49 sc-gqjmRU c50"
+          >
+            Open Source
+          </div>
+          <div
+            className="c51"
+          >
+            ✅
+          </div>
+        </li>
+        <hr
+          className="c52"
+        />
+        <li
+          className="c47 c48"
+          mt={
+            Array [
+              1,
+            ]
+          }
+        >
+          <div
+            className="c40 c49 sc-gqjmRU c50"
+          >
+            React best practices
+          </div>
+          <div
+            className="c51"
+          >
+            ✅
+          </div>
+        </li>
+        <hr
+          className="c52"
+        />
+        <li
+          className="c47 c48"
+          mt={
+            Array [
+              1,
+            ]
+          }
+        >
+          <div
+            className="c40 c49 sc-gqjmRU c50"
+          >
+            Practical API
+          </div>
+          <div
+            className="c51"
+          >
+            ✅
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="c33 c44 sc-bdVaJa c44"
+    >
+      <h2
+        className="c35"
+      >
+        What people say?
+      </h2>
+      <h3
+        className="c23 c36 sc-VigVT c37"
+      />
+      <div
+        className="c53 c14 sc-bdVaJa c14"
+      >
+        <div
+          className="c33 c14 sc-bdVaJa c14"
+        >
+          <div
+            className="c7 sc-TOsTZ kjYrri"
+          >
+            <blockquote
+              bg="whitesmoke"
+              className="c54 c55"
+            >
+              Use react-landing-page for your landing page needs. Or do not, I am not a beggar...
+              <div
+                className="c0 c56 sc-TOsTZ c56"
+              >
+                <div
+                  className="c57"
+                  direction="down"
+                />
+              </div>
+            </blockquote>
+          </div>
+          <div
+            className="c58 c59 sc-bdVaJa c59"
+          >
+            <img
+              className="c60"
+              src="https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI"
+            />
+            <div
+              className="c14"
+            >
+              <div
+                className="c40 c49 sc-gqjmRU c50"
+              >
+                Herman Starikov
+              </div>
+              <div
+                className="c50"
+                style={
+                  Object {
+                    "opacity": 0.75,
+                  }
+                }
+              >
+                maintainer
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c33 c44 sc-bdVaJa c44"
+    >
+      <h2
+        className="c35"
+      >
+        Made by
+      </h2>
+      <h3
+        className="c23 c36 sc-VigVT c37"
+      />
+      <div
+        className="c61 c14 sc-bdVaJa c14"
+      >
+        <div
+          className="c33 c14 sc-bdVaJa c14"
+        >
+          <img
+            className="c62"
+            src="https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI"
+          />
+          <div
+            className="c40 c63 sc-gqjmRU c64"
+          >
+            Herman Starikov
+          </div>
+          <div
+            className="c65"
+            style={
+              Object {
+                "opacity": 0.75,
+              }
+            }
+          >
+            maintainer
+          </div>
+          <div
+            className="c66 c14 sc-bdVaJa c14"
+          >
+            <a
+              className="c6"
+              href="https://github.com/Hermanya"
+            >
+              GitHub
+            </a>
+            <a
+              className="c6"
+              href="https://www.linkedin.com/in/hermanstarikov/"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c33 c67 sc-bdVaJa c67"
+    >
+      <h2
+        className="c35"
+      >
+        Install from npm
+      </h2>
+      <h3
+        className="c23 c36 sc-VigVT c37"
+      >
+        and head over to documentation
+      </h3>
       <pre
-        className="c28"
+        className="c29"
       >
         npm i react-landing-page@next
       </pre>
       <a
-        className="c26 c59"
+        className="c27 c68"
         href="/getting-started"
       >
         Documentation
       </a>
-    </div>
-  </div>
-  <h2
-    className="c48"
-  >
-    Made by
-  </h2>
-  <div
-    className="c60 c14 sc-bdVaJa c14"
-  >
-    <div
-      className="c39 c61 sc-bdVaJa c61"
-    >
-      <img
-        className="c62"
-        src="https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI"
-      />
-      <div
-        className="c35 c63 sc-gqjmRU c64"
-      >
-        Herman Starikov
-      </div>
-      <div
-        className="c65"
-        style={
-          Object {
-            "opacity": 0.75,
-          }
-        }
-      >
-        developer
-      </div>
-      <div
-        className="c2 c14 sc-bdVaJa c14"
-      >
-        <a
-          className="c6"
-          href="https://github.com/Hermanya"
-        >
-          GitHub
-        </a>
-        <a
-          className="c6"
-          href="https://www.linkedin.com/in/hermanstarikov/"
-        >
-          LinkedIn
-        </a>
-      </div>
     </div>
   </div>
   <footer
@@ -1400,7 +1596,7 @@ exports[`default renders 1`] = `
       NPM
     </a>
     <div
-      className="c66"
+      className="c69"
     >
       MIT © Herman Starikov
     </div>
