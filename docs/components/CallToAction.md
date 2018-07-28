@@ -11,7 +11,7 @@
 </Flex>
 ```
 
-Extends: [Box](http://jxnblk.com/rebass/components/Button)
+Extends: [Box](https://jxnblk.com/rebass/components/Button)
 
 | prop | default | type   |
 | ---- | ------- | ------ |

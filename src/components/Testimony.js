@@ -30,7 +30,7 @@ const Testimony = ({
 </Flex>
 
 Testimony.defaultProps = {
-    authorAvatar: 'http://via.placeholder.com/64x64',
+    authorAvatar: 'https://via.placeholder.com/64x64',
     authorName: 'Anonymous',
     authorTitle: 'expert',
 }

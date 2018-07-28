@@ -5,7 +5,7 @@
 <SignUp onSubmit={(email) => alert(`got ${email}`)} mt={3}/>
 ```
 
-Extends: [Flex](http://jxnblk.com/rebass/components/Flex)
+Extends: [Flex](https://jxnblk.com/rebass/components/Flex)
 
 | prop     | default | type             |
 | -------- | ------- | ---------------- |

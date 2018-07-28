@@ -14,10 +14,11 @@ export { default as theme } from './theme'
 
 export { default as Feature } from './components/Feature'
 export { default as Testimony } from './components/Testimony'
-export { default as Contributor } from './components/Contributor'
 export { default as Checklist } from './components/Checklist'
-export { default as SignUp } from './components/SignUp'
 export { default as Hero } from './components/Hero'
+export { default as PricingTier } from './components/PricingTier'
+export { default as SignUp } from './components/SignUp'
+export { default as Contributor } from './components/Contributor'
 
 
 export { default as CallToAction } from './atoms/CallToAction'

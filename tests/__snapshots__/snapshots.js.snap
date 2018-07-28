@@ -873,7 +873,7 @@ exports[`default renders 1`] = `
             </div>
             <img
               className="c20"
-              src="http://via.placeholder.com/640x480"
+              src="https://via.placeholder.com/640x480"
             />
           </div>
           <div
@@ -888,7 +888,7 @@ exports[`default renders 1`] = `
           >
             <img
               className="c20"
-              src="http://via.placeholder.com/187x406"
+              src="https://via.placeholder.com/187x406"
               style={
                 Object {
                   "borderRadius": 16,

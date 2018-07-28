@@ -1,5 +1,4 @@
 import React from 'react'
-import WebFont from 'webfontloader'
 import {
     Absolute, Flex, NavLink,
     Pre, Heading, Subhead, Box} from 'rebass'
@@ -11,14 +10,8 @@ import {
 
 const githubLink = 'https://github.com/Hermanya/react-landing-page'
 const npmLink = 'https://www.npmjs.com/package/react-landing-page'
-const fontFamily = 'Droid Sans'
-WebFont.load({
-    google: {
-        families: [fontFamily]
-    }
-});
 
-const LandingPage = () => <main style={{fontFamily: fontFamily}}>
+const LandingPage = () => <main>
     <Absolute zIndex={1} left={0} right={0} top={0}>
         <Flex p={3}>
             <NavLink href="/" fontSize={3}>react-landing-page</NavLink>
@@ -34,10 +27,10 @@ const LandingPage = () => <main style={{fontFamily: fontFamily}}>
         <Flex flexWrap='wrap' alignItems='center'>
             <Flex alignItems="flex-start" width={[1, 1, 1/2]} p={3}>
                 <MacWindow style={{transform: 'translate(32px, 0px)'}}/>
-                <Phone src="http://via.placeholder.com/187x406" color="black"
+                <Phone src="https://via.placeholder.com/187x406" color="black"
                     style={{transform: 'translate(-32px, 64px)'}}/>
             </Flex>
-            <Box width={[1, 1, 1/2]} alignItems='center' p={3} >
+            <Box width={[1, 1, 1/2]} p={3} >
                 <Heading>React components for a Landing Page</Heading>
                 <Subhead>tailored to your app & users</Subhead>
                 <Flex mt={3}>

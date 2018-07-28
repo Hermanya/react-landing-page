@@ -10,7 +10,7 @@
             <Flex alignItems="flex-start" width={[1, 1, 1/2]} p={3}>
                 <MacWindow/>
             </Flex>
-            <Box width={[1, 1, 1/2]} alignItems='center' p={3} >
+            <Box width={[1, 1, 1/2]} p={3} >
                 <Heading>React components for a Landing Page</Heading>
                 <Subhead>tailored to your app & users</Subhead>
                 <Flex mt={3} flexWrap="wrap">
@@ -23,7 +23,7 @@
     </Hero>
 ```
 
-Extends: [Flex](http://jxnblk.com/rebass/components/Flex)
+Extends: [Flex](https://jxnblk.com/rebass/components/Flex)
 
 | prop            | default         | type               |
 | --------------- | --------------- | ------------------ |

@@ -18,9 +18,9 @@ export default () => (<div>
                 }>Next Hero</CallToAction>
             </Flex>
             <Flex alignItems="flex-start" width={[1, 1/2]} p={3}>
-                <Phone src="http://via.placeholder.com/187x406"
+                <Phone src="https://via.placeholder.com/187x406"
                     notch style={{transform: 'translate(32px, 64px)'}}/>
-                <Phone src="http://via.placeholder.com/205x412" color="white"
+                <Phone src="https://via.placeholder.com/205x412" color="white"
                     style={{transform: 'translate(-32px, 0px)'}}/>
             </Flex>
         </Flex>
@@ -43,7 +43,7 @@ export default () => (<div>
             </Flex>
             <Flex alignItems="flex-start" width={[1, 1/2]} p={3}>
                 <MacWindow style={{transform: 'translate(32px, 0px)'}}/>
-                <Phone src="http://via.placeholder.com/187x406" color="black"
+                <Phone src="https://via.placeholder.com/187x406" color="black"
                     style={{transform: 'translate(-32px, 64px)'}}/>
             </Flex>
         </Flex>

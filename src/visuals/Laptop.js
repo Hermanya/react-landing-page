@@ -23,7 +23,7 @@ const KeyboardNotch = styled(Box)`
 `
 
 const Laptop = ({
-  src='http://via.placeholder.com/640x400',
+  src='https://via.placeholder.com/640x400',
   style={},
   ...props
 }) => <Box bg={'black'} p={3} style={{

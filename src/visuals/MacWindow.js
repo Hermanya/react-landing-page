@@ -3,7 +3,7 @@ import { Box, Image, Dot } from 'rebass'
 import styled from 'styled-components'
 
 const MacWindow = ({
-  src='http://via.placeholder.com/640x480',
+  src='https://via.placeholder.com/640x480',
   style={},
   color="#fbfbfb",
   notch

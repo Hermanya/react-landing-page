@@ -16,11 +16,11 @@
 </Flex>
 ```
 
-Extends: [Box](http://jxnblk.com/rebass/components/Box)
+Extends: [Box](https://jxnblk.com/rebass/components/Box)
 
-| prop     | default                            | type   |
-| -------- | ---------------------------------- | ------ |
-| fullName | 'Anonymous'                        | string |
-| title    | 'contributor'                      | string |
-| avatar   | 'http://via.placeholder.com/64x64' | string |
-| children |                                    | node   |
+| prop     | default                             | type   |
+| -------- | ----------------------------------- | ------ |
+| fullName | 'Anonymous'                         | string |
+| title    | 'contributor'                       | string |
+| avatar   | 'https://via.placeholder.com/64x64' | string |
+| children |                                     | node   |

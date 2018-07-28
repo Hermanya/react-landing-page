@@ -15,7 +15,7 @@
 </Flex>
 ```
 
-Extends: [Box](http://jxnblk.com/rebass/components/Box)
+Extends: [Box](https://jxnblk.com/rebass/components/Box)
 
 | prop        | default       | type        |
 | ----------- | ------------- | ----------- |

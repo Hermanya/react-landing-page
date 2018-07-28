@@ -13,7 +13,7 @@ const Notch = styled(Box)`
 `
 
 const Phone = ({
-  src='http://via.placeholder.com/187x406',
+  src='https://via.placeholder.com/187x406',
   style={},
   color="grey",
   notch
