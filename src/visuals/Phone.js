@@ -22,7 +22,10 @@ const Phone = ({
   bg={color}
   px={'1%'}
   py={notch? 8 : '4%'}
-  style={{borderRadius: 20, position: 'relative', ...style}}
+  style={{
+    boxShadow: 'inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3)',
+    borderRadius: 20, position: 'relative', ...style
+  }}
   {...props}
   >
   {notch && <Notch bg={color}/>}

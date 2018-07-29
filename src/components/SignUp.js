@@ -27,9 +27,9 @@ class SignUp extends React.Component {
 }
 
 SignUp.displayName = 'SignUp'
-SignUp.propTypes = {
-    onSubmit: propTypes.func.isRequired
-}
+// SignUp.propTypes = {
+//     onSubmit: propTypes.func.isRequired
+// }
 export default SignUp
 
 

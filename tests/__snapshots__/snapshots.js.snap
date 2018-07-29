@@ -1,286 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`default renders 1`] = `
-.c3 {
-  box-sizing: border-box;
-  padding: 16px;
-}
-
-.c12 {
-  box-sizing: border-box;
-  color: black;
-}
-
-.c14 {
-  box-sizing: border-box;
-}
-
-.c16 {
-  box-sizing: border-box;
+exports[`BackgroundImage renders 1`] = `
+.c0 {
   width: 100%;
-  padding: 16px;
+  height: 0;
+  padding-bottom: 75%;
+  background-size: cover;
+  background-position: center;
 }
 
-.c17 {
+<div
+  className="c0"
+/>
+`;
+
+exports[`Box renders 1`] = `
+.c0 {
   box-sizing: border-box;
-  background-color: #fbfbfb;
 }
 
-.c18 {
-  box-sizing: border-box;
-  padding: 4px;
-}
+<div
+  className="c0"
+/>
+`;
 
-.c21 {
-  box-sizing: border-box;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background-color: black;
-}
-
-.c26 {
-  box-sizing: border-box;
-  margin-top: 16px;
-}
-
-.c34 {
-  box-sizing: border-box;
-  width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
-.c38 {
-  box-sizing: border-box;
-  width: 50%;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  padding: 16px;
-}
-
-.c44 {
-  box-sizing: border-box;
-  width: 25%;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
-.c46 {
-  box-sizing: border-box;
-  padding: 0px;
-}
-
-.c48 {
-  box-sizing: border-box;
-  margin-top: 4px;
-}
-
-.c51 {
-  box-sizing: border-box;
-  margin-left: 8px;
-  font-size: 20px;
-}
-
-.c59 {
-  box-sizing: border-box;
-  width: 100%;
-}
-
-.c67 {
-  box-sizing: border-box;
-  width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
-.c69 {
-  box-sizing: border-box;
-  margin-left: auto;
-  color: grey;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c13 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-}
-
-.c25 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c32 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c33 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c45 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c47 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.c53 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: flex-end;
-  -webkit-box-align: flex-end;
-  -ms-flex-align: flex-end;
-  align-items: flex-end;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
-}
-
-.c58 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c61 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
-}
-
-.c66 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.c28 {
+exports[`CallToAction renders 1`] = `
+.c1 {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1428571428571428;
   margin: 0px;
-  margin-right: 16px;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 16px;
@@ -301,16 +50,694 @@ exports[`default renders 1`] = `
   appearance: none;
 }
 
-.c28:disabled {
+.c1:disabled {
   opacity: 0.25;
 }
 
-.c28:focus {
+.c1:focus {
   outline: none;
   box-shadow: 0 0 0 2px blue;
 }
 
-.c31 {
+.c0 {
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<a
+  className="c0 c1"
+/>
+`;
+
+exports[`Checklist renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<ul
+  className="c0 c1"
+  p={0}
+  style={
+    Object {
+      "listStyle": "none",
+    }
+  }
+/>
+`;
+
+exports[`Column renders 1`] = `
+.c2 {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.c0 {
+  margin-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+<div
+  className="c0 c1 sc-bdVaJa c2"
+/>
+`;
+
+exports[`Contributor renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  margin: 16px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.c5 {
+  margin: 16px;
+  text-align: center;
+}
+
+.c6 {
+  margin: 0px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.c3 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.c2 {
+  height: 128px;
+  width: 128px;
+  border-radius: 99999px;
+  display: inline-block;
+}
+
+<div
+  className="c0 c1 sc-bdVaJa c1"
+>
+  <img
+    className="c2"
+    src={undefined}
+  />
+  <div
+    className="c3 c4 sc-gqjmRU c5"
+  />
+  <div
+    className="c6"
+    style={
+      Object {
+        "opacity": 0.75,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Feature renders 1`] = `
+.c0 {
+  box-sizing: border-box;
+  width: 50%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 16px;
+}
+
+.c3 {
+  margin: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.c4 {
+  margin: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.c5 {
+  margin: 0px;
+  text-align: center;
+}
+
+.c1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+@media screen and (min-width:40em) {
+  .c0 {
+    width: 33.33333333333333%;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c0 {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c0 {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c0 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c0 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <h2
+    className="c1"
+  >
+    🔥
+  </h2>
+  <div
+    className="c2 c3 sc-gqjmRU c4"
+  >
+    Feature
+  </div>
+  <div
+    className="c5"
+    style={
+      Object {
+        "opacity": 0.75,
+      }
+    }
+  >
+    description
+  </div>
+</div>
+`;
+
+exports[`Flex renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0 c1 sc-bdVaJa c1"
+/>
+`;
+
+exports[`Heading renders 1`] = `
+.c0 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+}
+
+<h2
+  className="c0"
+/>
+`;
+
+exports[`Hero renders 1`] = `
+.c4 {
+  box-sizing: border-box;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.c0 {
+  position: relative;
+}
+
+.c1 {
+  position: absolute;
+}
+
+<div
+  className="c0 sc-TOsTZ kjYrri"
+>
+  <div
+    className="c1 c2 sc-TOsTZ c2"
+    style={
+      Object {
+        "height": "100%",
+        "opacity": 1,
+      }
+    }
+  />
+  <div
+    className="c3 c4 sc-bdVaJa c4"
+    style={
+      Object {
+        "minHeight": "100vh",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Image renders 1`] = `
+.c0 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+<img
+  className="c0"
+/>
+`;
+
+exports[`Laptop renders 1`] = `
+.c3 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  padding: 16px;
+  background-color: black;
+}
+
+.c1 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.c2 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -18px;
+  width: calc(100% + 64px);
+  height: 18px;
+  border-radius: 2px;
+  background: grey;
+}
+
+.c4 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -8px;
+  width: 100px;
+  height: 8px;
+  background: #333;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "border": "1px solid grey",
+      "borderRadius": 4,
+      "position": "relative",
+    }
+  }
+>
+  <img
+    className="c1"
+    src="https://via.placeholder.com/640x400"
+  />
+  <div
+    className="c2 c3"
+  />
+  <div
+    className="c4 c3"
+  />
+</div>
+`;
+
+exports[`MacWindow renders 1`] = `
+.c0 {
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+}
+
+.c1 {
+  box-sizing: border-box;
+  padding-left: 4px;
+}
+
+.c3 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.c2 {
+  margin: 0px;
+  padding: 0px;
+  height: 16px;
+  width: 16px;
+  background-color: darken;
+  border-radius: 99999px;
+  border: 4px solid;
+  border-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-clip: padding-box;
+}
+
+.c2:focus {
+  background-color: blue;
+}
+
+.c2:hover {
+  background-color: blue;
+}
+
+.c2:disabled {
+  opacity: 0.25;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "borderRadius": 4,
+      "boxShadow": "inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3)",
+      "overflow": "hidden",
+    }
+  }
+>
+  <div
+    className="c1"
+    style={
+      Object {
+        "background": "linear-gradient(#ebebeb, #d5d5d5)",
+        "borderBottom": "1px solid #b1aeb1",
+      }
+    }
+  >
+    <button
+      className="c2"
+    />
+    <button
+      className="c2"
+    />
+    <button
+      className="c2"
+    />
+  </div>
+  <img
+    className="c3"
+    src="https://via.placeholder.com/640x480"
+  />
+</div>
+`;
+
+exports[`Phone renders 1`] = `
+.c0 {
+  box-sizing: border-box;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: grey;
+}
+
+.c1 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "borderRadius": 20,
+      "boxShadow": "inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3)",
+      "position": "relative",
+    }
+  }
+>
+  <img
+    className="c1"
+    src="https://via.placeholder.com/187x406"
+    style={
+      Object {
+        "borderRadius": 16,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`PricingTier renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c3 {
+  margin: 0px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.c4 {
+  margin: 0px;
+}
+
+.c7 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.c8 {
+  margin: 8px;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+@media screen and (min-width:40em) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c1 {
+    width: 33.33333333333333%;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+}
+
+<div
+  className="c0 c1 sc-bdVaJa c1"
+  name="Premium"
+>
+  <div
+    className="c2 c3 sc-gqjmRU c4"
+  />
+  <div
+    className="c5 c6 sc-bdVaJa c6"
+  >
+    <div
+      className="c7"
+    >
+      $99
+    </div>
+    <div
+      className="c8"
+      style={
+        Object {
+          "opacity": 0.75,
+        }
+      }
+    >
+      yearly
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Row renders 1`] = `
+.c3 {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+<div
+  className="c0 c1 c2 sc-bwzfXH c1 sc-bdVaJa c3 sc-bdVaJa c3"
+/>
+`;
+
+exports[`ScrollDownIndicator renders 1`] = `
+.c1 {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1428571428571428;
@@ -335,27 +762,57 @@ exports[`default renders 1`] = `
   appearance: none;
 }
 
-.c31:disabled {
+.c1:disabled {
   opacity: 0.25;
 }
 
-.c31:focus {
+.c1:focus {
   outline: none;
   box-shadow: 0 0 0 2px transparent;
 }
 
-.c68 {
+.c0 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-animation: kdHdTw 1s ease infinite;
+  animation: kdHdTw 1s ease infinite;
+  color: inherit;
+}
+
+<button
+  className="c0 c1"
+>
+  ╲╱
+</button>
+`;
+
+exports[`SignUp renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1428571428571428;
   margin: 0px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: white;
   background-color: blue;
-  border-radius: 4px;
+  border-radius: 2px;
   border: 0;
   font-family: inherit;
   -webkit-font-smoothing: antialiased;
@@ -369,252 +826,163 @@ exports[`default renders 1`] = `
   appearance: none;
 }
 
-.c68:disabled {
-  opacity: 0.25;
-}
-
-.c68:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px blue;
-}
-
-.c4 {
-  color: inherit;
-  background-color: transparent;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 8px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
 .c4:disabled {
   opacity: 0.25;
 }
 
-.c5 {
-  color: inherit;
-  background-color: transparent;
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px blue;
+}
+
+.c2 {
   font-size: 14px;
-  font-weight: bold;
-  margin-left: auto;
-  padding: 8px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  margin-bottom: 4px;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  white-space: nowrap;
-  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.c5:disabled {
-  opacity: 0.25;
-}
-
-.c6 {
-  color: inherit;
-  background-color: transparent;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 8px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-.c6:disabled {
-  opacity: 0.25;
-}
-
-.c41 {
-  margin: 16px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.25;
-}
-
-.c42 {
-  margin: 16px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.c43 {
+.c3 {
+  font-size: inherit;
+  line-height: inherit;
   margin: 0px;
-  text-align: center;
-}
-
-.c49 {
-  margin: 0px;
-  font-size: 20px;
-  line-height: 1.25;
-}
-
-.c50 {
-  margin: 0px;
-}
-
-.c55 {
-  margin: 0px;
-  margin-bottom: 16px;
-  padding: 16px;
-  background-color: whitesmoke;
-  font-size: 20px;
-}
-
-.c63 {
-  margin: 16px;
-  font-size: 20px;
-  text-align: center;
-  line-height: 1.25;
-}
-
-.c64 {
-  margin: 16px;
-  text-align: center;
-}
-
-.c65 {
-  margin: 0px;
-  margin-bottom: 16px;
-  text-align: center;
-}
-
-.c22 {
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.25;
-  margin: 0px;
-  text-align: center;
-}
-
-.c24 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
-  margin: 0px;
-  text-align: center;
-}
-
-.c35 {
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.25;
-  margin: 0px;
-  margin-bottom: 16px;
-  text-align: center;
-}
-
-.c36 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
-  margin: 0px;
-  margin-bottom: 64px;
-  text-align: center;
-}
-
-.c37 {
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.25;
-  margin: 0px;
-  margin-bottom: 64px;
-  text-align: center;
-}
-
-.c39 {
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.25;
-  margin: 0px;
-  margin-bottom: 16px;
-  text-align: center;
-}
-
-.c23 {
-  font-size: 24px;
-}
-
-.c40 {
-  font-size: 20px;
-  line-height: 1.25;
-}
-
-.c54 {
-  font-size: 20px;
-  margin: 0px;
-  margin-bottom: 16px;
-  padding: 16px;
-}
-
-.c52 {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
   border: 0;
-  border-bottom: 1px solid;
   border-color: gray;
+  box-shadow: 1;
+  border-radius: 2px;
+  color: inherit;
+  background-color: transparent;
+  font-family: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
-.c29 {
-  font-size: 14px;
-  font-family: mono;
+.c3:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px undefined;
+}
+
+.c3:disabled {
+  opacity: 0.25;
+}
+
+<form
+  className="c0 c1"
+  onSubmit={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+    >
+      Email Address
+    </label>
+    <input
+      className="c3"
+      onChange={[Function]}
+      type="email"
+      value=""
+    />
+  </div>
+  <button
+    className="c4"
+  >
+    Sign Up
+  </button>
+</form>
+`;
+
+exports[`Subhead renders 1`] = `
+.c2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
   margin: 0px;
-  padding: 16px;
-  overflow: auto;
 }
 
-.c9 {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.c1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0px;
+}
+
+.c0 {
+  font-size: 24px;
+}
+
+<h3
+  className="c0 c1 sc-VigVT c2"
+/>
+`;
+
+exports[`Testimony renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
   width: 100%;
 }
 
-.c20 {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.c60 {
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  margin: 0px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.c7 {
+  margin: 0px;
+}
+
+.c5 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.c4 {
   height: 64px;
   width: 64px;
   border-radius: 99999px;
@@ -622,984 +990,35 @@ exports[`default renders 1`] = `
   margin-right: 16px;
 }
 
-.c62 {
-  height: 128px;
-  width: 128px;
-  border-radius: 99999px;
-  display: inline-block;
-}
-
-.c19 {
-  margin: 0px;
-  padding: 0px;
-  height: 16px;
-  width: 16px;
-  background-color: darken;
-  border-radius: 99999px;
-  border: 4px solid;
-  border-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-clip: padding-box;
-}
-
-.c19:focus {
-  background-color: blue;
-}
-
-.c19:hover {
-  background-color: blue;
-}
-
-.c19:disabled {
-  opacity: 0.25;
-}
-
-.c57 {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  vertical-align: middle;
-  border-right: .3125em solid transparent;
-  border-left: .3125em solid transparent;
-  border-top: .4375em solid;
-  color: whitesmoke;
-}
-
-.c1 {
-  z-index: 1;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-}
-
-.c8 {
-  z-index: -2;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
-.c10 {
-  background-color: white;
-  z-index: -1;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
-.c56 {
-  bottom: 4px;
-  left: 24px;
-}
-
-.c7 {
-  position: relative;
-}
-
-.c0 {
-  position: absolute;
-}
-
-.c27 {
-  text-transform: uppercase;
-  -webkit-letter-spacing: 0.1em;
-  -moz-letter-spacing: 0.1em;
-  -ms-letter-spacing: 0.1em;
-  letter-spacing: 0.1em;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.c30 {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  -webkit-animation: kdHdTw 1s ease infinite;
-  animation: kdHdTw 1s ease infinite;
-  color: inherit;
-}
-
-@media screen and (min-width:40em) {
-  .c16 {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c16 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c34 {
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c34 {
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c34 {
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c38 {
-    width: 33.33333333333333%;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c38 {
-    width: 25%;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c38 {
-    width: 20%;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c38 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c38 {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c44 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c44 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c44 {
-    width: 25%;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c44 {
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c44 {
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c44 {
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c51 {
-    margin-left: 64px;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c67 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c67 {
-    width: 66.66666666666666%;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c67 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c67 {
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c67 {
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c67 {
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c35 {
-    margin-bottom: 4px;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c35 {
-    margin-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c35 {
-    margin-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c36 {
-    margin-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c36 {
-    margin-bottom: 16px;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c36 {
-    margin-bottom: 32px;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c37 {
-    margin-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:52em) {
-  .c37 {
-    margin-bottom: 16px;
-  }
-}
-
-@media screen and (min-width:64em) {
-  .c37 {
-    margin-bottom: 32px;
-  }
-}
-
-<main>
+<div
+  className="c0 c1 sc-bdVaJa c1"
+>
   <div
-    className="c0 c1 sc-TOsTZ c1"
+    className="c2 c3 sc-bdVaJa c3"
   >
-    <div
-      className="c2 c3 sc-bdVaJa c3"
-    >
-      <a
-        className="c4"
-        href="/"
-      >
-        react-landing-page
-      </a>
-      <a
-        className="c5"
-        href="https://github.com/Hermanya/react-landing-page"
-      >
-        GitHub
-      </a>
-      <a
-        className="c6"
-        href="https://www.npmjs.com/package/react-landing-page"
-      >
-        NPM
-      </a>
-    </div>
-  </div>
-  <div
-    className="c7 sc-TOsTZ kjYrri"
-  >
-    <div
-      className="c0 c8 sc-TOsTZ c8"
-      style={
-        Object {
-          "height": "100%",
-        }
-      }
-    >
-      <img
-        alt=""
-        className="c9"
-        src="https://source.unsplash.com/jxaj-UrzQbc/1600x900"
-        style={
-          Object {
-            "height": "100%",
-            "objectFit": "cover",
-          }
-        }
-      />
-    </div>
-    <div
-      className="c0 c10 sc-TOsTZ c10"
-      style={
-        Object {
-          "height": "100%",
-          "opacity": 0.9,
-        }
-      }
+    <img
+      className="c4"
+      src="https://via.placeholder.com/64x64"
     />
     <div
-      className="c11 c12 sc-bdVaJa c12"
-      style={
-        Object {
-          "minHeight": "100vh",
-        }
-      }
+      className="c1"
     >
       <div
-        className="c13 c14 sc-bdVaJa c14"
+        className="c5 c6 sc-gqjmRU c7"
       >
-        <div
-          className="c15 c16 sc-bdVaJa c16"
-        >
-          <div
-            className="c17"
-            style={
-              Object {
-                "borderRadius": 4,
-                "transform": "translate(32px, 0px)",
-              }
-            }
-          >
-            <div
-              className="c18"
-            >
-              <button
-                className="c19"
-              />
-              <button
-                className="c19"
-              />
-              <button
-                className="c19"
-              />
-            </div>
-            <img
-              className="c20"
-              src="https://via.placeholder.com/640x480"
-            />
-          </div>
-          <div
-            className="c21"
-            style={
-              Object {
-                "borderRadius": 20,
-                "position": "relative",
-                "transform": "translate(-32px, 32px)",
-              }
-            }
-          >
-            <img
-              className="c20"
-              src="https://via.placeholder.com/187x406"
-              style={
-                Object {
-                  "borderRadius": 16,
-                }
-              }
-            />
-          </div>
-        </div>
-        <div
-          className="c16"
-        >
-          <h2
-            className="c22"
-          >
-            React components for a Landing Page
-          </h2>
-          <h3
-            className="c23 c24 sc-VigVT c22"
-          >
-            tailored to your app & users
-          </h3>
-          <div
-            className="c25 c26 sc-bdVaJa c26"
-          >
-            <a
-              className="c27 c28"
-              href="/getting-started"
-            >
-              Documentation
-            </a>
-            <pre
-              className="c29"
-            >
-              npm i react-landing-page@next
-            </pre>
-          </div>
-        </div>
+        Anonymous
       </div>
-      <button
-        className="c30 c31"
-      >
-        ╲╱
-      </button>
-    </div>
-  </div>
-  <div
-    className="c32 c14 sc-bdVaJa c14"
-  >
-    <div
-      className="c33 c34 sc-bdVaJa c34"
-    >
-      <h2
-        className="c35"
-      >
-        What's included?
-      </h2>
-      <h3
-        className="c23 c36 sc-VigVT c37"
-      />
       <div
-        className="c25 c14 sc-bdVaJa c14"
-      >
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            👋
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Hero
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            What your users see first
-          </div>
-        </div>
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            🔥
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Features
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            What your app can do
-          </div>
-        </div>
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            ✅
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Checklist
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            What is worth mentioning
-          </div>
-        </div>
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            💼
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Company Logos
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            What big names are behind
-          </div>
-        </div>
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            🙎‍
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Social Proof
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            What your other people say
-          </div>
-        </div>
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            💳
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Pricing
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            How much you charge
-          </div>
-        </div>
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            📣
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Call To Action
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            What should users do first
-          </div>
-        </div>
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            📩
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Sign Up
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            How to keep in touch
-          </div>
-        </div>
-        <div
-          className="c38"
-        >
-          <h2
-            className="c39"
-          >
-            👩‍💼
-          </h2>
-          <div
-            className="c40 c41 sc-gqjmRU c42"
-          >
-            Team
-          </div>
-          <div
-            className="c43"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            Who worked on the app
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c33 c44 sc-bdVaJa c44"
-    >
-      <h2
-        className="c35"
-      >
-        Why pick this library?
-      </h2>
-      <h3
-        className="c23 c36 sc-VigVT c37"
-      >
-        maybe this will help
-      </h3>
-      <ul
-        className="c45 c46"
-        p={0}
+        className="c7"
         style={
           Object {
-            "listStyle": "none",
+            "opacity": 0.75,
           }
         }
       >
-        <li
-          className="c47 c48"
-          mt={
-            Array [
-              1,
-            ]
-          }
-        >
-          <div
-            className="c40 c49 sc-gqjmRU c50"
-          >
-            Open Source
-          </div>
-          <div
-            className="c51"
-          >
-            ✅
-          </div>
-        </li>
-        <hr
-          className="c52"
-        />
-        <li
-          className="c47 c48"
-          mt={
-            Array [
-              1,
-            ]
-          }
-        >
-          <div
-            className="c40 c49 sc-gqjmRU c50"
-          >
-            React best practices
-          </div>
-          <div
-            className="c51"
-          >
-            ✅
-          </div>
-        </li>
-        <hr
-          className="c52"
-        />
-        <li
-          className="c47 c48"
-          mt={
-            Array [
-              1,
-            ]
-          }
-        >
-          <div
-            className="c40 c49 sc-gqjmRU c50"
-          >
-            Practical API
-          </div>
-          <div
-            className="c51"
-          >
-            ✅
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div
-      className="c33 c44 sc-bdVaJa c44"
-    >
-      <h2
-        className="c35"
-      >
-        What people say?
-      </h2>
-      <h3
-        className="c23 c36 sc-VigVT c37"
-      />
-      <div
-        className="c53 c14 sc-bdVaJa c14"
-      >
-        <div
-          className="c33 c14 sc-bdVaJa c14"
-        >
-          <div
-            className="c7 sc-TOsTZ kjYrri"
-          >
-            <blockquote
-              bg="whitesmoke"
-              className="c54 c55"
-            >
-              Use react-landing-page for your landing page needs. Or do not, I am not a beggar...
-              <div
-                className="c0 c56 sc-TOsTZ c56"
-              >
-                <div
-                  className="c57"
-                  direction="down"
-                />
-              </div>
-            </blockquote>
-          </div>
-          <div
-            className="c58 c59 sc-bdVaJa c59"
-          >
-            <img
-              className="c60"
-              src="https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI"
-            />
-            <div
-              className="c14"
-            >
-              <div
-                className="c40 c49 sc-gqjmRU c50"
-              >
-                Herman Starikov
-              </div>
-              <div
-                className="c50"
-                style={
-                  Object {
-                    "opacity": 0.75,
-                  }
-                }
-              >
-                maintainer
-              </div>
-            </div>
-          </div>
-        </div>
+        expert
       </div>
-    </div>
-    <div
-      className="c33 c44 sc-bdVaJa c44"
-    >
-      <h2
-        className="c35"
-      >
-        Made by
-      </h2>
-      <h3
-        className="c23 c36 sc-VigVT c37"
-      />
-      <div
-        className="c61 c14 sc-bdVaJa c14"
-      >
-        <div
-          className="c33 c14 sc-bdVaJa c14"
-        >
-          <img
-            className="c62"
-            src="https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI"
-          />
-          <div
-            className="c40 c63 sc-gqjmRU c64"
-          >
-            Herman Starikov
-          </div>
-          <div
-            className="c65"
-            style={
-              Object {
-                "opacity": 0.75,
-              }
-            }
-          >
-            maintainer
-          </div>
-          <div
-            className="c66 c14 sc-bdVaJa c14"
-          >
-            <a
-              className="c6"
-              href="https://github.com/Hermanya"
-            >
-              GitHub
-            </a>
-            <a
-              className="c6"
-              href="https://www.linkedin.com/in/hermanstarikov/"
-            >
-              LinkedIn
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c33 c67 sc-bdVaJa c67"
-    >
-      <h2
-        className="c35"
-      >
-        Install from npm
-      </h2>
-      <h3
-        className="c23 c36 sc-VigVT c37"
-      >
-        and head over to documentation
-      </h3>
-      <pre
-        className="c29"
-      >
-        npm i react-landing-page@next
-      </pre>
-      <a
-        className="c27 c68"
-        href="/getting-started"
-      >
-        Documentation
-      </a>
     </div>
   </div>
-  <footer
-    className="c2 c3"
-    p={3}
-  >
-    <a
-      className="c6"
-      href="/getting-started"
-    >
-      Documentation
-    </a>
-    <a
-      className="c6"
-      href="https://github.com/Hermanya/react-landing-page"
-    >
-      GitHub
-    </a>
-    <a
-      className="c6"
-      href="https://www.npmjs.com/package/react-landing-page"
-    >
-      NPM
-    </a>
-    <div
-      className="c69"
-    >
-      MIT © Herman Starikov
-    </div>
-  </footer>
-</main>
+</div>
 `;

@@ -9,9 +9,6 @@ export {
   Subhead
 } from 'rebass'
 
-export { default as Provider } from './Provider'
-export { default as theme } from './theme'
-
 export { default as Feature } from './components/Feature'
 export { default as Testimony } from './components/Testimony'
 export { default as Checklist } from './components/Checklist'
