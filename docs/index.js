@@ -16,7 +16,7 @@ const header = <Absolute zIndex={1} left={0} right={0} top={0}>
     <Flex p={3}>
         <NavLink
             is={RouterLink}
-            href="/"
+            to="/"
             fontSize={3}
         >react-landing-page</NavLink>
         <NavLink href={githubLink} ml='auto'>GitHub</NavLink>
@@ -28,7 +28,7 @@ const footer = <Flex is="footer" p={3}>
     <NavLink
         is={RouterLink}
         children="Documentation"
-        href="/getting-started"/>
+        to="/getting-started"/>
     <NavLink children="GitHub" href={githubLink}/>
     <NavLink children="NPM" href={npmLink}/>
     <Box color="grey" ml="auto">MIT © Herman Starikov</Box>
@@ -65,7 +65,7 @@ const LandingPage = () => <main>
                 <Flex mt={3} flexWrap="wrap" justifyContent="center">
                     <CallToAction
                         is={RouterLink}
-                        href="/getting-started"
+                        to="/getting-started"
                         mr={3}
                     >Documentation</CallToAction>
                     <Pre p={3}>npm i react-landing-page@next</Pre>
@@ -134,7 +134,7 @@ const LandingPage = () => <main>
                 <Pre p={3}>npm i react-landing-page@next</Pre>
                 <CallToAction
                     is={RouterLink}
-                    href="/getting-started"
+                    to="/getting-started"
                 >Documentation</CallToAction>
         </Section>
 
