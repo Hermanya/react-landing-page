@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link as RouterLink } from 'react-router-dom'
 import {
     Absolute, Flex, NavLink,
     Pre, Heading, Subhead, Box} from 'rebass'
@@ -13,14 +14,21 @@ const npmLink = 'https://www.npmjs.com/package/react-landing-page'
 
 const header = <Absolute zIndex={1} left={0} right={0} top={0}>
     <Flex p={3}>
-        <NavLink href="/" fontSize={3}>react-landing-page</NavLink>
+        <NavLink
+            is={RouterLink}
+            href="/"
+            fontSize={3}
+        >react-landing-page</NavLink>
         <NavLink href={githubLink} ml='auto'>GitHub</NavLink>
         <NavLink href={npmLink}>NPM</NavLink>
     </Flex>
 </Absolute>
 
 const footer = <Flex is="footer" p={3}>
-    <NavLink children="Documentation" href="/getting-started"/>
+    <NavLink
+        is={RouterLink}
+        children="Documentation"
+        href="/getting-started"/>
     <NavLink children="GitHub" href={githubLink}/>
     <NavLink children="NPM" href={npmLink}/>
     <Box color="grey" ml="auto">MIT © Herman Starikov</Box>
@@ -55,7 +63,11 @@ const LandingPage = () => <main>
                 <Heading textAlign="center">React components for a Landing Page</Heading>
                 <Subhead textAlign="center">tailored to your app & users</Subhead>
                 <Flex mt={3} flexWrap="wrap" justifyContent="center">
-                    <CallToAction href="/getting-started" mr={3}>Documentation</CallToAction>
+                    <CallToAction
+                        is={RouterLink}
+                        href="/getting-started"
+                        mr={3}
+                    >Documentation</CallToAction>
                     <Pre p={3}>npm i react-landing-page@next</Pre>
                 </Flex>
             </Box>
@@ -120,7 +132,10 @@ const LandingPage = () => <main>
             subhead="and head over to documentation"
             width={[1, 1/2, 2/3, 2/4]}>
                 <Pre p={3}>npm i react-landing-page@next</Pre>
-                <CallToAction href="/getting-started">Documentation</CallToAction>
+                <CallToAction
+                    is={RouterLink}
+                    href="/getting-started"
+                >Documentation</CallToAction>
         </Section>
 
     </Flex>
