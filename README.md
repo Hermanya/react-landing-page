@@ -1,3 +1,4 @@
+[![Demo gif](https://media.giphy.com/media/ZNoKzO3XCsiQWOQqHt/giphy.gif)](https://hermanya.github.io/react-landing-page/)
 
 # React Landing Page
 
@@ -16,8 +17,6 @@ React UI component library for building Landing Pages.
 [downloads-badge]: https://img.shields.io/npm/dw/react-landing-page.svg?style=flat-square
 [version-badge]: https://img.shields.io/npm/v/react-landing-page.svg?style=flat-square
 [npm]: https://npmjs.com/package/react-landing-page
-
-![image](https://user-images.githubusercontent.com/2906365/43358152-4a56cd00-925b-11e8-8cee-af37c07877ca.png)
 
 
 ```sh
@@ -42,9 +41,9 @@ import {
 const App = props => (
   <Provider>
     <Hero
-    color="black"
-    bg="white"
-    backgroundImage="https://source.unsplash.com/jxaj-UrzQbc/1600x900"
+      color="black"
+      bg="white"
+      backgroundImage="https://source.unsplash.com/jxaj-UrzQbc/1600x900"
     >
         <Heading>Name of your app</Heading>
         <Subhead>a couple more words</Subhead>
@@ -60,6 +59,18 @@ To use Rebass with [emotion][emotion], import from `rebass/emotion`:
 ```js
 import * as Rebass from 'rebass/emotion'
 ```
+
+## Features
+
+1. 👋 Hero
+2. 🔥 Features
+3. ✅ Checklist
+4. 💼 Company Logos
+5. 🙎‍ Testimony
+6. 💳 Pricing
+7. 📣 Call To Action
+8. 📩 Sign Up
+9. 👩‍💼 Team
 
 ## Documentation
 
