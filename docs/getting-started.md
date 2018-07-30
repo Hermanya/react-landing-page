@@ -34,8 +34,8 @@ const App = props => (
 Use provider if you have a styleguide you would like to follow. Convert your style guide into a [styled-system] schema, and pass it in. Rebass has a great default theme, to enable it, use `Provider`, but don't pass a theme.
 
 ```.jsx
-<Provider theme={styledSystemTheme}>
-  <Heading>Hello</Heading>
+<Provider>
+  <CallToAction>Say Hello</CallToAction>
 </Provider>
 ```
 
