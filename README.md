@@ -21,7 +21,11 @@ React UI component library for building Landing Pages.
 
 ```sh
 npm i react-landing-page@next
+
+# for best dev experience install and use rebass
+npm i rebass@next
 ```
+
 [>> SEE DEMO <<](https://hermanya.github.io/react-landing-page/)
 
 React Landing Page is a set of highly-composable React components for building advanced landing pages. It is built using Rebass, a library of UI primitives.
@@ -78,6 +82,12 @@ import * as Rebass from 'rebass/emotion'
 - [Theming](https://hermanya.github.io/react-landing-page/theming)
 - [Components](https://hermanya.github.io/react-landing-page/components)
 - [Server-Side Rendering](https://hermanya.github.io/react-landing-page/server-side-rendering)
+
+## CodeSandbox
+
+Try it out:
+
+https://codesandbox.io/s/github/hermanya/react-landing-page/tree/master/examples/sandbox
 
 ### Related
 
