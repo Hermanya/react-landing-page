@@ -1,14 +1,18 @@
 # Call to Action
 
 ```.jsx
-<Flex flexDirection="column" alignItems="center" p={5}>
-    <Heading>Install from npm</Heading>
-    <Subhead>and head over to documentation</Subhead>
-    <Flex mt={3}>
-        <Pre p={3}>npm i react-landing-page@next</Pre>
-        <CallToAction href="/getting-started">See Documentation</CallToAction>
-    </Flex>
-</Flex>
+<CallToAction href='/getting-started'>Get Started</CallToAction>
+```
+
+```.jsx
+<Section
+    heading='Install from npm'
+    subhead='and head over to documentation'
+    width={1}
+>
+    <Pre p={3}>npm i react-landing-page@next</Pre>
+    <CallToAction href='/getting-started'>Documentation</CallToAction>
+</Section>
 ```
 
 Extends: [Box](https://jxnblk.com/rebass/components/Button)
