@@ -1,29 +1,36 @@
 import React from 'react'
-import { Lead, Subhead, Heading, Flex, Box, Divider } from 'rebass'
-
+import { Lead, Flex, Box, Divider } from 'rebass'
+import propTypes from 'prop-types'
 const Item = ({
-    checkmark,
-    text
-}) => <Flex is="li" mt={[1]} alignItems="center" justifyContent="space-between">
-    <Lead>{text}</Lead><Box ml={[2, 5]} fontSize={3}>{checkmark}</Box>
+  checkmark,
+  text
+}) => <Flex is='li' mt={[1]} alignItems='center' justifyContent='space-between'>
+  <Lead>{text}</Lead><Box ml={[2, 5]} fontSize={3}>{checkmark}</Box>
 </Flex>
+
+Item.propTypes = {
+  checkmark: propTypes.string,
+  text: propTypes.string
+}
 
 const Checklist = ({checkmark, children, ...props}) =>
-<Flex is="ul"
+  <Flex is='ul'
     p={0} style={{listStyle: 'none'}}
-    flexDirection="column"
+    flexDirection='column'
     {...props}>
     {children.map((item, index) => <React.Fragment key={item}>
-        <Item text={item} checkmark={checkmark} />
-        {index + 1 !== children.length && <Divider/>}
+      <Item text={item} checkmark={checkmark} />
+      {index + 1 !== children.length && <Divider />}
     </React.Fragment>)}
-</Flex>
+  </Flex>
 
 Checklist.displayName = 'Checklist'
 Checklist.defaultProps = {
-    checkmark: '✅',
-    children: []
+  checkmark: '✅',
+  children: []
+}
+Checklist.propTypes = {
+  checkmark: propTypes.string,
+  children: propTypes.any
 }
 export default Checklist
-
-

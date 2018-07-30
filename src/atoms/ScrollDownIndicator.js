@@ -11,7 +11,7 @@ const bounce = keyframes`
   100% {
     transform: translateY(0) translateX(-50%);
   }
-`;
+`
 
 // Add custom styles here
 const LaScrollDownIndicatorptop = styled(BaseButton)`

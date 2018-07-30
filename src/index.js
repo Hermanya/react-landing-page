@@ -17,10 +17,10 @@ export { default as PricingTier } from './components/PricingTier'
 export { default as SignUp } from './components/SignUp'
 export { default as Contributor } from './components/Contributor'
 
-
+export { default as Section } from './atoms/Section'
 export { default as CallToAction } from './atoms/CallToAction'
 export { default as ScrollDownIndicator } from './atoms/ScrollDownIndicator'
 
-export { default as Phone} from './visuals/Phone'
-export { default as MacWindow} from './visuals/MacWindow'
-export { default as Laptop} from './visuals/Laptop'
+export { default as Phone } from './visuals/Phone'
+export { default as MacWindow } from './visuals/MacWindow'
+export { default as Laptop } from './visuals/Laptop'

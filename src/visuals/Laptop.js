@@ -1,6 +1,7 @@
 import React from 'react'
-import { Box, Image, Dot } from 'rebass'
+import { Box, Image } from 'rebass'
 import styled from 'styled-components'
+import propTypes from 'prop-types'
 
 const Keyboard = styled(Box)`
   position: absolute;
@@ -23,18 +24,22 @@ const KeyboardNotch = styled(Box)`
 `
 
 const Laptop = ({
-  src='https://via.placeholder.com/640x400',
-  style={},
+  src = 'https://via.placeholder.com/640x400',
+  style = {},
+  children,
   ...props
 }) => <Box bg={'black'} p={3} style={{
-    borderRadius: 4, border: '1px solid grey', position: 'relative', ...style
+  borderRadius: 4, border: '1px solid grey', position: 'relative', ...style
 }} {...props}>
-  <Image src={src}/>
-  <Keyboard/>
-  <KeyboardNotch/>
+  {src ? <Image src={src} /> : children}
+  <Keyboard />
+  <KeyboardNotch />
 </Box>
 
-
 Laptop.displayName = 'Laptop'
-
+Laptop.propTypes = {
+  src: propTypes.string,
+  style: propTypes.object,
+  children: propTypes.any
+}
 export default Laptop

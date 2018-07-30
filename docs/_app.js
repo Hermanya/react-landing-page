@@ -1,4 +1,5 @@
 import React from 'react'
+import propTypes from 'prop-types'
 import { Provider as RefunkProvider } from 'refunk'
 import {
   SidebarLayout,
@@ -8,10 +9,9 @@ import sortBy from 'lodash.sortby'
 import pkg from '../package.json'
 import * as Rebass from 'rebass'
 import * as ReactLandingPage from '../src'
-
 const scope = {
   ...Rebass,
-  ...ReactLandingPage,
+  ...ReactLandingPage
 }
 
 const navOrder = [
@@ -19,7 +19,7 @@ const navOrder = [
   'getting-started',
   'components',
   'theming',
-  'server-side-rendering',
+  'server-side-rendering'
 ]
 
 const createNav = routes => [
@@ -31,27 +31,27 @@ const createNav = routes => [
         name: 'Components'
       }
     }), a => {
-      const index = navOrder.indexOf(a.name)
-      return index < 0 ? Infinity : index
-    }),
+    const index = navOrder.indexOf(a.name)
+    return index < 0 ? Infinity : index
+  }),
   {
     key: 'rebass',
     name: 'Made with Rebass',
-    path: 'https://github.com/jxnblk/rebass',
+    path: 'https://github.com/jxnblk/rebass'
   },
   {
     key: 'github',
     name: 'Open Source on GitHub',
-    path: 'https://github.com/hermanya/react-landing-page',
+    path: 'https://github.com/hermanya/react-landing-page'
   },
   {
     key: 'herman',
     name: 'Made by Herman Starikov',
-    path: 'https://github.com/hermanya',
-  },
+    path: 'https://github.com/hermanya'
+  }
 ]
 
-export default class extends React.Component {
+export default class App extends React.Component {
   render () {
     const {
       routes,
@@ -80,4 +80,10 @@ export default class extends React.Component {
       </ScopeProvider>
     )
   }
+}
+
+App.propTypes = {
+  routes: propTypes.any,
+  route: propTypes.any,
+  children: propTypes.any
 }
