@@ -5,13 +5,36 @@
 npm i react-landing-page@next
 ```
 
+```jsx
+import React from 'react'
+import { Provider, Heading, Subhead } from 'rebass'
+import {
+  Hero, CallToAction, ScrollDownIndicator
+} from 'react-landing-page'
+
+const App = props => (
+  <Provider>
+    <Hero
+      color="black"
+      bg="white"
+      backgroundImage="https://source.unsplash.com/jxaj-UrzQbc/1600x900"
+    >
+        <Heading>Name of your app</Heading>
+        <Subhead>a couple more words</Subhead>
+        <CallToAction href="/getting-started" mt={3}>Get Started</CallToAction>
+        <ScrollDownIndicator/>
+    </Hero>
+  </Provider>
+)
+```
+
+
 ## Provider
 
-To ensure Rebass's theme is properly configured, use the `<Provider />` component at the root of your application.
-The `Provider` component accepts a `theme` props for setting a [custom theme][theming].
+Use provider if you have a styleguide you would like to follow. Convert your style guide into a [styled-system] schema, and pass it in. Rebass has a great default theme, to enable it, use `Provider`, but don't pass a theme.
 
 ```.jsx
-<Provider>
+<Provider theme={styledSystemTheme}>
   <Heading>Hello</Heading>
 </Provider>
 ```
@@ -28,43 +51,19 @@ injectGlobal`
 `
 ```
 
-Import UI components directly from Rebass and use them to build larger components.
-
-```js
-import {
-  Card,
-  Box,
-  BackgroundImage,
-  Subhead,
-  Small
-} from 'rebass'
-```
-
-```.jsx
-<Box width={256}>
-  <Card>
-    <BackgroundImage src={photo} />
-    <Box p={2}>
-      <Subhead>Card</Subhead>
-      <Small>Small meta text</Small>
-    </Box>
-  </Card>
-</Box>
-```
-
-Alternatively, use Rebass components as the starting point for custom UI components.
+Use react-landing-page components as the starting point for custom UI components.
 
 ```jsx
 import styled from 'styled-components'
-import { Button as Base } from 'rebass'
+import { CallToAction } from 'react-landing-page'
 
-const Button = styled(Base)`
+const CallToAction = styled(CallToAction)`
   &:hover {
     background-color: ${props => props.theme.colors.navy};
   }
 `
 
-export default Button
+export default CallToAction
 ```
 
 [theming]: theming.md

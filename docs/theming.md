@@ -1,7 +1,7 @@
 
 # Theming
 
-Rebass's core theme includes breakpoints, a spacing scale,
+React landing page is based on Rebass, which is using `styled-system` for styling. To use Rebass's core theme includes breakpoints, a spacing scale,
 a typographic scale, fonts, font weights, border radii, and colors, all of which can be configured with the `<Provider />` component.
 
 To customize the underlying theme, pass a `theme` object to the `<Provider />` component.
@@ -16,9 +16,9 @@ To customize the underlying theme, pass a `theme` object to the `<Provider />` c
       12, 16, 24, 36, 48, 72
     ]
   }}>
-  <Heading fontSize={[ 2, 3, 4, 5 ]}>
+  <CallToAction fontSize={[ 2, 3, 4, 5 ]}>
     Hello
-  </Heading>
+  </CallToAction>
 </Provider>
 ```
 
@@ -72,6 +72,6 @@ const theme = {
 ```
 
 
-See the [styled-system][system] docs for more about how Rebass style props integrate with the theme.
+See the [styled-system][system] docs for more about how react-landing-page style props integrate with the theme.
 
 [system]: https://github.com/jxnblk/styled-system
