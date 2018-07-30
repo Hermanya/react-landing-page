@@ -1,4 +1,4 @@
-[![Demo](https://user-images.githubusercontent.com/2906365/43375462-361efed8-9383-11e8-9136-302cf3b7d173.png)](https://hermanya.github.io/react-landing-page/)
+[![Demo](https://user-images.githubusercontent.com/2906365/43375514-94cfb9ae-9383-11e8-9489-cffe5212fd2e.png)](https://hermanya.github.io/react-landing-page/)
 
 # React Landing Page
 
