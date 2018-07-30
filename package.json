@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "babel src -d dist",
     "start": "x0 docs",
-    "test": "jest",
+    "test": "eslint src",
     "build": "x0 build docs -d site",
     "deploy": "gh-pages -d site",
     "cover": "jest --coverage --coverageReporters html lcov && codecov"

@@ -29,7 +29,11 @@ const Laptop = ({
   children,
   ...props
 }) => <Box bg={'black'} p={3} style={{
-  borderRadius: 4, border: '1px solid grey', position: 'relative', ...style
+  borderRadius: 4,
+  border: '1px solid grey',
+  position: 'relative',
+  transform: 'scale(0.8)',
+  ...style
 }} {...props}>
   {src ? <Image src={src} /> : children}
   <Keyboard />

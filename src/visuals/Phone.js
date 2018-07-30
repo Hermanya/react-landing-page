@@ -39,7 +39,7 @@ const Phone = ({
 Phone.displayName = 'Phone'
 Phone.propTypes = {
   src: propTypes.string,
-  style: propTypes.string,
+  style: propTypes.object,
   color: propTypes.string,
   notch: propTypes.bool,
   children: propTypes.any

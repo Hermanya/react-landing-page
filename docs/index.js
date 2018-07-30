@@ -44,11 +44,17 @@ const LandingPage = () => <main>
   >
     <Flex flexWrap='wrap' alignItems='center'>
       <Flex alignItems='flex-start' width={[1, 1, 1 / 2]} p={3}>
-        <MacWindow style={{transform: 'translate(32px, 0px)'}}
-          src='https://user-images.githubusercontent.com/2906365/43362295-eea5c420-92b4-11e8-84a3-997aa263d3ea.png' />
+        <MacWindow
+          style={{
+            transform: 'translate(32px, 0px)'
+          }}
+          src='https://user-images.githubusercontent.com/2906365/43374382-62a58dba-937d-11e8-9010-9c22d0e8c9d0.png' />
         <Phone color='black'
-          style={{transform: 'translate(-32px, 32px)'}}
-          src='https://user-images.githubusercontent.com/2906365/43362296-f0c27c9e-92b4-11e8-9776-604cc42b23b5.png' />
+          style={{
+            transform: 'translate(-32px, 32px)'
+          }}
+          src='https://user-images.githubusercontent.com/2906365/43374290-cf96343e-937c-11e8-9855-7f02da3fa335.png' />
+
       </Flex>
       <Box width={[1, 1, 1 / 2]} p={3} >
         <Heading textAlign='center'>React components for a Landing Page</Heading>
