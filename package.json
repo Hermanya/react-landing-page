@@ -2,6 +2,20 @@
   "name": "react-landing-page",
   "version": "1.0.1",
   "main": "dist/index.js",
+  "author": "Herman Starikov",
+  "license": "MIT",
+  "keywords": [
+    "components",
+    "react",
+    "react-component",
+    "ui",
+    "design-system",
+    "styled-system",
+    "styled-components",
+    "landing",
+    "page",
+    "functional"
+  ],
   "scripts": {
     "prepare": "babel src -d dist",
     "start": "x0 docs",
@@ -37,11 +51,20 @@
     "jest-styled-components": "^5.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-test-renderer": "^16.3.2"
+    "react-test-renderer": "^16.3.2",
+    "styled-components": ">=3.0.0"
   },
   "peerDependencies": {
     "styled-components": ">=3.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hermanya/react-landing-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hermanya/react-landing-page/issues"
+  },
+  "homepage": "https://github.com/hermanya/react-landing-page",
   "jest": {
     "testMatch": [
       "**/tests/**/*.js"
@@ -55,5 +78,6 @@
     "template": "./docs/_template.js",
     "basename": "/react-landing-page",
     "static": true
-  }
+  },
+  "sideEffects": false
 }
