@@ -9,16 +9,18 @@ const Testimony = ({
   authorName,
   authorTitle,
   children,
+  bubbleBg,
+  bubbleColor,
   ...props
 }) => <Flex flexDirection='column' alignItems='center' {...props}>
   {typeof children === 'string'
     ? <Relative>
-      <Blockquote bg='whitesmoke' mb={3} p={3}>
+      <Blockquote bg={bubbleBg} color={bubbleColor} mb={3} p={3}>
         {children}
         <Absolute
           bottom={4}
           left={24}
-        ><Arrow color='whitesmoke' /></Absolute>
+        ><Arrow color={bubbleBg} /></Absolute>
       </Blockquote>
     </Relative>
     : children
@@ -35,12 +37,16 @@ const Testimony = ({
 Testimony.defaultProps = {
   authorAvatar: 'https://via.placeholder.com/64x64',
   authorName: 'Anonymous',
-  authorTitle: 'expert'
+  authorTitle: 'expert',
+  bubbleBg: 'whitesmoke',
+  bubbleColor: 'black'
 }
 Testimony.propTypes = {
   authorAvatar: propTypes.string,
   authorName: propTypes.string,
   authorTitle: propTypes.string,
+  bubbleBg: propTypes.string,
+  bubbleColor: propTypes.string,
   children: propTypes.any
 }
 
