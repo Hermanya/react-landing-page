@@ -8,7 +8,7 @@ const Contributor = ({
   children,
   ...props
 }) => <Flex flexDirection='column' alignItems='center' {...props}>
-  <Avatar src={avatar} size={128} />
+  <Avatar src={avatar} size={128} alt='' />
   <Lead textAlign='center' m={3}>{fullName}</Lead>
   <Text textAlign='center' mb={3} style={{opacity: 3 / 4}}>{title}</Text>
   {children}

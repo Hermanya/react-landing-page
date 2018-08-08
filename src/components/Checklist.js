@@ -1,16 +1,19 @@
 import React from 'react'
-import { Lead, Flex, Box, Divider } from 'rebass'
+import { Lead, Flex, Box } from 'rebass'
 import propTypes from 'prop-types'
 const Item = ({
   checkmark,
-  text
-}) => <Flex is='li' mt={[1]} alignItems='center' justifyContent='space-between'>
+  text,
+  last
+}) => <Flex is='li' mt={[2]} mb={2} pb={3} alignItems='center' justifyContent='space-between'
+  style={{borderBottom: last ? 'none' : '1px solid rgba(128, 128, 128, 0.5)'}}>
   <Lead>{text}</Lead><Box ml={[2, 5]} fontSize={3}>{checkmark}</Box>
 </Flex>
 
 Item.propTypes = {
   checkmark: propTypes.string,
-  text: propTypes.string
+  text: propTypes.string,
+  last: propTypes.bool
 }
 
 const Checklist = ({checkmark, children, ...props}) =>
@@ -18,10 +21,10 @@ const Checklist = ({checkmark, children, ...props}) =>
     p={0} style={{listStyle: 'none'}}
     flexDirection='column'
     {...props}>
-    {children.map((item, index) => <React.Fragment key={item}>
-      <Item text={item} checkmark={checkmark} />
-      {index + 1 !== children.length && <Divider />}
-    </React.Fragment>)}
+    {children.map((item, index) =>
+      <Item text={item} checkmark={checkmark}
+        key={item}
+        last={index + 1 === children.length} />)}
   </Flex>
 
 Checklist.displayName = 'Checklist'

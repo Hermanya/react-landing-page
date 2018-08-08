@@ -26,7 +26,7 @@ const Testimony = ({
     : children
   }
   <Flex alignItems='center' width={1}>
-    <Avatar src={authorAvatar} size={64} mr={3} />
+    <Avatar src={authorAvatar} size={64} mr={3} alt='' />
     <Box>
       <Lead>{authorName}</Lead>
       <Text style={{opacity: 3 / 4}}>{authorTitle}</Text>

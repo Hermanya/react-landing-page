@@ -6,7 +6,7 @@ import {
 
 const Section = ({heading, subhead, children, ...props}) => <Flex
   width={[1, 1 / 2, 1 / 2, 1 / 4, 1 / 4]}
-  py={[1, 2, 3, 4, 5]}
+  py={[4, 5]}
   px={[1, 1, 2, 2, 3]}
   flexDirection='column'
   alignItems='center'
