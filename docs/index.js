@@ -35,6 +35,8 @@ const footer = <Flex is='footer' p={3}>
   <Box color='grey' ml='auto'>MIT © Herman Starikov</Box>
 </Flex>
 
+const smallSection = [1, 1 / 2, 1 / 2, 1 / 4, 1 / 4]
+
 const LandingPage = () => <main>
   {header}
   <Hero
@@ -56,9 +58,10 @@ const LandingPage = () => <main>
           src='https://user-images.githubusercontent.com/2906365/43374290-cf96343e-937c-11e8-9855-7f02da3fa335.png' />
 
       </Flex>
-      <Box width={[1, 1, 1 / 2]} p={3} >
-        <Heading textAlign='center'>React components for a Landing Page</Heading>
-        <Subhead textAlign='center'>tailored to your app & users</Subhead>
+      <Section
+        heading='React components for a Landing Page'
+        subhead='tailored to your & app users'
+        width={[1, 1, 1 / 2]} p={3} >
         <Flex mt={3} flexWrap='wrap' justifyContent='center'>
           <CallToAction
             is={RouterLink}
@@ -67,13 +70,15 @@ const LandingPage = () => <main>
           >Documentation</CallToAction>
           <Pre p={3}>npm i react-landing-page@next</Pre>
         </Flex>
-      </Box>
+      </Section>
     </Flex>
     <ScrollDownIndicator />
   </Hero>
   <Flex flexWrap='wrap' justifyContent='center' alignItems='flex-start'>
 
-    <Section heading="What's included?" width={1}>
+    <Section
+      heading="What's included?"
+      subhead='9 components'>
       <Flex flexWrap='wrap' justifyContent='center'>
         <Feature icon='👋' description='What your users see first'>Hero</Feature>
         <Feature icon='🔥' description='What your app can do'>Features</Feature>
@@ -89,7 +94,9 @@ const LandingPage = () => <main>
 
     <Section
       heading='Why pick this library?'
-      subhead='maybe this will help'>
+      subhead='maybe this will help'
+      width={smallSection}
+    >
       <Checklist children={[
         'Open Source',
         'React best practices',
@@ -98,7 +105,10 @@ const LandingPage = () => <main>
     </Section>
 
     <Section
-      heading='What people say?'>
+      heading='Testimony'
+      subhead='example'
+      width={smallSection}
+    >
       <Flex alignItems='flex-end' justifyContent='space-around'>
         <Testimony
           authorAvatar='https://media.licdn.com/dms/image/C4D03AQHrQu7jWlkkmQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=ByDJmdnXciGKEyYXdfj4mA7WNEXCvTWhGfbFm4imqyI'
@@ -109,7 +119,11 @@ const LandingPage = () => <main>
       </Flex>
     </Section>
 
-    <Section heading='Made by'>
+    <Section
+      heading='Made by'
+      subhead='one and only'
+      width={smallSection}
+    >
       <Flex justifyContent='space-around'>
         <Contributor
           fullName='Herman Starikov'
