@@ -26,36 +26,36 @@
   },
   "dependencies": {
     "prop-types": "^15.6.2",
-    "rebass": "^3.0.0",
+    "rebass": "^2.0.0",
     "refunk": "^3.0.1",
-    "styled-system": "^3.1.11"
+    "styled-system": "^2.3.6"
   },
   "devDependencies": {
     "@compositor/kit-snapshot": "^1.0.24",
-    "@compositor/x0": "^6.0.7",
+    "@compositor/x0": "^6.0.5",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "codecov": "^3.1.0",
-    "eslint": "^5.11.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-config-standard-react": "^7.0.2",
+    "codecov": "^3.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "gh-pages": "^2.0.1",
-    "jest": "^23.6.0",
-    "jest-styled-components": "^6.3.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "gh-pages": "^1.2.0",
+    "jest": "^22.4.4",
+    "jest-styled-components": "^5.0.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "react-test-renderer": "^16.4.2",
-    "styled-components": "^4.1.3"
+    "styled-components": "^3.4.5"
   },
   "peerDependencies": {
-    "styled-components": ">=4.1.3"
+    "styled-components": ">=3.0.0"
   },
   "repository": {
     "type": "git",
