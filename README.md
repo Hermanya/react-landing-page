@@ -20,7 +20,7 @@ React UI component library for building Landing Pages.
 
 
 ```sh
-npm i react-landing-page@next
+npm i react-landing-page
 
 # for best dev experience install and use rebass
 npm i rebass@next
