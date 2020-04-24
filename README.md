@@ -1,110 +1,28 @@
-[![Demo](https://user-images.githubusercontent.com/2906365/43375514-94cfb9ae-9383-11e8-9489-cffe5212fd2e.png)](https://hermanya.github.io/react-landing-page/)
-
 # React Landing Page
 
-React UI component library for building Landing Pages.
+This React UI component library for building Landing Pages is **deprecated for the time being**.
 
-[![Build Status][badge]][travis]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][npm]
-[![Version][version-badge]][npm]
+I deprecated it because a lot has changed in the industry over the past few years and my vision of the problem this repo was trying to solve has changed as well.
 
-[badge]: https://img.shields.io/travis/Hermanya/react-landing-page.svg?style=flat-square
-[travis]: https://travis-ci.org/Hermanya/react-landing-page
-[coverage-badge]: https://img.shields.io/codecov/c/github/Hermanya/react-landing-page.svg?style=flat-square
-[coverage]: https://codecov.io/github/Hermanya/react-landing-page
+On one hand, there is no need to couple your app to your landing page. If your app is using react, it does not mean your landing page should. If anything, react is slowing down your landing page.
 
-[downloads-badge]: https://img.shields.io/npm/dw/react-landing-page.svg?style=flat-square
-[version-badge]: https://img.shields.io/npm/v/react-landing-page.svg?style=flat-square
-[npm]: https://npmjs.com/package/react-landing-page
+> JavaScript bundle size reduced by 200kB by switching from React and other client-side libraries to vanilla JavaScript. React was still used server-side.
 
+[A Netflix web performance study](https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9)
 
-```sh
-npm i react-landing-page
+On the other hand, you may be tempted to re-use the UI library you used to build your app to have the same look. This makes a lot of sense. Except you should not build your app before you build your landing page :D
 
-# for best dev experience install and use rebass
-npm i rebass@next
-```
+In this case, you either have your custom-built UI library and you are basically on your own to build your landing page. Or you chose to go with an off-npm UI library, such as Material UI, React Bootstrap, Reactstrap, or Antd.
 
-[>> SEE DEMO <<](https://hermanya.github.io/react-landing-page/)
+[![ui lib trends](./ui-lib-trends.png)](https://www.npmtrends.com/react-bootstrap-vs-antd-vs-@material-ui/core-vs-reactstrap-vs-@shopify/polaris-vs-@fluentui/react-vs-semantic-ui-react-vs-baseui-vs-styled-system)
 
-React Landing Page is a set of highly-composable React components for building advanced landing pages. It is built using Rebass, a library of UI primitives.
-Based upon a configurable design system,
-Rebass‘s props API makes building consistent, responsive web apps simpler and faster.
+[Material UI](https://material-ui.com/) has an [official store](https://material-ui.com/store) and there is one [landing page template](https://material-ui.com/store/items/onepirate/). *Someone should make more :D*
 
+[React Bootstrap](https://react-bootstrap.github.io/) does not have a store or anything. They migrated to Bootstrap v4 not that long ago. *Someone should make a react-bootstrap.store (even domain name is available) :D*
 
-## Getting Started
+As I said, it took React Bootstrap a few years to migrate to Bootstrap v4, and in the meantime, [Reactstrap](https://reactstrap.github.io/) came to life. There is a [Reactstrap templates page](https://reactstrap.github.io/premium-themes/) and link to a [third party store](https://uifort.com/template/bamburgh-react-ui-kit-reactstrap-free/).
 
-```jsx
-import React from 'react'
-import { Provider, Heading, Subhead } from 'rebass'
-import {
-  Hero, CallToAction, ScrollDownIndicator
-} from 'react-landing-page'
+And finally, there is [Ant.design](https://ant.design/), which has a whole [collection of landing pages](https://landing.ant.design/), make sure to check it out. It's cool! There really should be something like this for every other UI lib.
 
-const App = props => (
-  <Provider>
-    <Hero
-      color="black"
-      bg="white"
-      backgroundImage="https://source.unsplash.com/jxaj-UrzQbc/1600x900"
-    >
-        <Heading>Name of your app</Heading>
-        <Subhead>a couple more words</Subhead>
-        <CallToAction href="/getting-started" mt={3}>Get Started</CallToAction>
-        <ScrollDownIndicator/>
-    </Hero>
-  </Provider>
-)
-```
+Hopefully, this was useful. Star it if you found it useful :D
 
-To use Rebass with [emotion][emotion], import from `rebass/emotion`:
-
-```js
-import * as Rebass from 'rebass/emotion'
-```
-
-## Features
-
-1. 👋 Hero
-2. 🔥 Features
-3. ✅ Checklist
-4. 💼 Company Logos
-5. 🙎‍ Testimony
-6. 💳 Pricing
-7. 📣 Call To Action
-8. 📩 Sign Up
-9. 👩‍💼 Team
-
-## Documentation
-
-- [Getting Started](https://hermanya.github.io/react-landing-page/getting-started)
-- [Theming](https://hermanya.github.io/react-landing-page/theming)
-- [Components](https://hermanya.github.io/react-landing-page/components)
-- [Server-Side Rendering](https://hermanya.github.io/react-landing-page/server-side-rendering)
-
-## CodeSandbox
-
-Try it out:
-
-https://codesandbox.io/s/github/hermanya/react-landing-page/tree/master/examples/sandbox
-
-### Related
-
-- [rebass][rebass]
-- [styled-system][system]
-- [grid-styled][gs]
-- [styled-components][sc]
-- [emotion][emotion]
-
-[rebass]: https://github.com/jxnblk/rebass
-[system]: https://github.com/jxnblk/styled-system
-[gs]: https://github.com/jxnblk/grid-styled
-[sc]: https://github.com/styled-components/styled-components
-[emotion]: https://github.com/emotion-js/emotion
-
----
-
-[Contributing](.github/CONTRIBUTING.md)
-|
-[MIT License](.github/LICENSE.md)
